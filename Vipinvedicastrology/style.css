@@ -13,6 +13,7 @@ body {
 .maroon-gradient-text {
     background: linear-gradient(135deg, #7f1d1d 0%, #991b1b 50%, #b45309 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
