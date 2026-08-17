@@ -9,6 +9,9 @@
     <meta name="description" content="पीलीभीत के प्रसिद्ध ज्योतिषाचार्य पं. विपिन महाराज से Vedic Astrology, पूजा, कुंडली, वास्तु, तंत्र काट, लव मैरिज, और व्यापार समस्याओं का प्रामाणिक समाधान पाएं। मातंगेश्वर धाम आश्रम, पूरनपुर।">
     <meta name="keywords" content="Jyotishacharya Pt Vipin Maharaj, Astrologer Vipin Maharaj, Matangeshwar Dham Ashram, Puranpur Banda Marg, Kanpara, Pilibhit Pandit">
 
+    <!-- Base Path for GitHub Pages Deployment -->
+    <base href="https://singhpdhruv06.github.io/vipinjyotish.in/Vipinvedicastrology/">
+
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -21,7 +24,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Outfit:wght@400;500;600;700;800&family=Rozha+One&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap" rel="stylesheet">
 
     <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 
     <!-- Schema.org Markup for Local Business and SEO -->
     <script type="application/ld+json">
@@ -80,12 +83,10 @@
                 </div>
                 <div>
                     <span class="font-dev-title text-xl md:text-2xl font-bold maroon-gradient-text block leading-none">
-                        <span class="lang-hi">पं. विपिन महाराज</span>
-                        <span class="lang-en hidden font-cinzel">Pt. Vipin Maharaj</span>
+                        पं. विपिन महाराज
                     </span>
                     <span class="text-[10px] md:text-[11px] font-outfit text-amber-900 font-extrabold tracking-wider uppercase block mt-1">
-                        <span class="lang-hi">मातंगेश्वर धाम आश्रम</span>
-                        <span class="lang-en hidden">Matangeshwar Dham Ashram</span>
+                        मातंगेश्वर धाम आश्रम
                     </span>
                 </div>
             </a>
@@ -93,55 +94,20 @@
             <div class="flex items-center space-x-3 md:space-x-6">
                 <!-- Desktop Navigation -->
                 <nav class="hidden lg:flex items-center space-x-7 text-base font-outfit font-bold text-stone-800 tracking-wide">
-                    <a href="#about" class="hover:text-amber-700 transition">
-                        <span class="lang-hi">परिचय</span>
-                        <span class="lang-en hidden">About</span>
-                    </a>
-                    <a href="#rashi" class="hover:text-amber-700 transition">
-                        <span class="lang-hi">राशि चक्र</span>
-                        <span class="lang-en hidden">Zodiac</span>
-                    </a>
-                    <a href="#services" class="hover:text-amber-700 transition">
-                        <span class="lang-hi">परामर्श</span>
-                        <span class="lang-en hidden">Services</span>
-                    </a>
-                    <a href="#anushthan" class="hover:text-amber-700 transition">
-                        <span class="lang-hi">अनुष्ठान</span>
-                        <span class="lang-en hidden">Rituals</span>
-                    </a>
-                    <a href="#gallery" class="hover:text-amber-700 transition">
-                        <span class="lang-hi">गैलरी</span>
-                        <span class="lang-en hidden">Gallery</span>
-                    </a>
-                    <a href="#testimonials" class="hover:text-amber-700 transition">
-                        <span class="lang-hi">यजमान</span>
-                        <span class="lang-en hidden">Patrons</span>
-                    </a>
+                    <a href="#about" class="hover:text-amber-700 transition">परिचय</a>
+                    <a href="#rashi" class="hover:text-amber-700 transition">राशि चक्र</a>
+                    <a href="#services" class="hover:text-amber-700 transition">परामर्श</a>
+                    <a href="#anushthan" class="hover:text-amber-700 transition">अनुष्ठान</a>
+                    <a href="#gallery" class="hover:text-amber-700 transition">गैलरी</a>
+                    <a href="#testimonials" class="hover:text-amber-700 transition">यजमान</a>
                     <a href="#faq" class="hover:text-amber-700 transition">FAQ</a>
                 </nav>
-
-                <!-- Language Toggle Button (No "Switch to") -->
-                <button id="lang-toggle-btn" class="px-3.5 py-1.5 md:px-4 md:py-2 text-xs md:text-sm font-outfit font-bold bg-amber-100 hover:bg-amber-200 text-red-950 border-2 border-amber-400 rounded-full transition flex items-center gap-1.5 shadow-sm active:scale-95">
-                    <i class="fa-solid fa-globe text-amber-700 text-base"></i>
-                    <span id="lang-btn-text">English</span>
-                </button>
 
                 <a href="tel:9389265478" class="hidden sm:inline-flex items-center gap-2 px-5 py-2 text-xs md:text-sm font-outfit font-extrabold vedic-btn-saffron rounded-full shadow-md hover:scale-105 transition">
                     <i class="fa-solid fa-phone"></i> Call Now
                 </a>
 
-                <!-- Hamburger Menu Button -->
-                <button id="menu-btn" class="lg:hidden text-2xl text-stone-800 focus:outline-none">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
             </div>
-        </div>
-
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden lg:hidden absolute top-full left-0 w-full bg-[#fffdf2] shadow-lg border-t border-amber-300">
-            <nav class="flex flex-col items-center text-center p-4 space-y-4 font-outfit font-bold text-stone-800">
-                <a href="#about" class="mobile-nav-link"><span class="lang-hi">परिचय</span><span class="lang-en hidden">About</span></a><a href="#rashi" class="mobile-nav-link"><span class="lang-hi">राशि चक्र</span><span class="lang-en hidden">Zodiac</span></a><a href="#services" class="mobile-nav-link"><span class="lang-hi">परामर्श</span><span class="lang-en hidden">Services</span></a><a href="#anushthan" class="mobile-nav-link"><span class="lang-hi">अनुष्ठान</span><span class="lang-en hidden">Rituals</span></a><a href="#gallery" class="mobile-nav-link"><span class="lang-hi">गैलरी</span><span class="lang-en hidden">Gallery</span></a><a href="#testimonials" class="mobile-nav-link"><span class="lang-hi">यजमान</span><span class="lang-en hidden">Patrons</span></a><a href="#faq" class="mobile-nav-link">FAQ</a>
-            </nav>
         </div>
     </header>
 
@@ -152,87 +118,71 @@
             <!-- Sadguru Charan Kamlebhyo Namah Badge -->
             <div class="text-center scroll-animate">
                 <p class="text-red-950 font-outfit font-bold text-xs md:text-sm tracking-widest uppercase">
-                    <span class="lang-hi">॥ श्री सद्गुरु चरण कमलेभ्यो नमः ॥</span>
-                    <span class="lang-en hidden">|| Shree Sadguru Charan Kamlebhyo Namah ||</span>
+                    ॥ श्री सद्गुरु चरण कमलेभ्यो नमः ॥
                 </p>
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-8">
                 <!-- Left Column: Text Content -->
-                <div class="text-center lg:text-left scroll-animate">
-                    <h1 class="text-3xl md:text-5xl lg:text-6xl font-dev-title font-bold maroon-gradient-text mb-2 leading-tight">
-                        <span class="lang-hi">ज्योतिषाचार्य पं. विपिन महाराज</span>
-                        <span class="lang-en hidden font-cinzel">Jyotishacharya Pt. Vipin Maharaj</span>
-                    </h1>
+                <div class="text-center lg:text-left animate-slide-in-left">
+                    <h1 class="text-3xl md:text-5xl lg:text-6xl font-dev-title font-bold maroon-gradient-text mb-2 leading-tight">ज्योतिषाचार्य पं. विपिन महाराज</h1>
                     <p class="text-lg md:text-2xl text-amber-900 font-dev-title font-bold mb-6">
-                        <span class="lang-hi">आपकी हर समस्या का प्रामाणिक वैदिक समाधान</span>
-                        <span class="lang-en hidden font-outfit">Aapki Samasya — Samadhan Hamara</span>
+                        आपकी हर समस्या का प्रामाणिक वैदिक समाधान
                     </p>
-
-                    <!-- INTEGRATED TRUST BADGES -->
-                    <div class="grid grid-cols-2 gap-2 md:gap-4 my-6 font-outfit">
-                        <div class="p-2.5 bg-white/90 rounded-xl border border-amber-300 shadow-sm flex items-center justify-center lg:justify-start gap-2 text-center sm:text-left">
-                            <i class="fa-solid fa-scroll text-amber-800 text-lg md:text-2xl flex-shrink-0"></i>
-                            <div>
-                                <span class="lang-hi"><span class="block text-xs md:text-sm font-extrabold text-red-950 leading-tight">100% वैदिक विधि-विधान</span><span class="text-[10px] md:text-xs text-stone-700 font-semibold block">शास्त्रोक्त प्रामाणिक उपाय</span></span>
-                                <span class="lang-en hidden"><span class="block text-xs md:text-sm font-extrabold text-red-950 leading-tight">100% Vedic Vidhi-Vidhan</span><span class="text-[10px] md:text-xs text-stone-700 font-semibold block">Authentic Shastriya Remedies</span></span>
-                            </div>
-                        </div>
-                        <div class="p-2.5 bg-white/90 rounded-xl border border-amber-300 shadow-sm flex items-center justify-center lg:justify-start gap-2 text-center sm:text-left">
-                            <i class="fa-solid fa-comments text-emerald-700 text-lg md:text-2xl flex-shrink-0"></i>
-                            <div>
-                                <span class="lang-hi"><span class="block text-xs md:text-sm font-extrabold text-red-950 leading-tight">प्रत्यक्ष व फोन परामर्श</span><span class="text-[10px] md:text-xs text-stone-700 font-semibold block">आश्रम व कॉल परामर्श सुविधा</span></span>
-                                <span class="lang-en hidden"><span class="block text-xs md:text-sm font-extrabold text-red-950 leading-tight">Ashram & Call Consultation</span><span class="text-[10px] md:text-xs text-stone-700 font-semibold block">In-person & Phone Support</span></span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Call & WhatsApp CTAs -->
-                    <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-3 md:gap-4 mt-4 font-outfit">
-                        <a href="https://wa.me/919389265478?text=जय%20श्री%20राम,%20आचार्य%20जी%20मुझे%20परामर्श%20व%20अनुष्ठान%20के%20लिए%20संपर्क%20करना%20है।" target="_blank" class="px-6 py-3.5 whatsapp-btn font-extrabold rounded-full shadow-lg flex items-center justify-center gap-2.5 text-base">
-                            <i class="fa-brands fa-whatsapp text-xl"></i>
-                            <span class="lang-hi">व्हाट्सएप पर बात करें</span>
-                            <span class="lang-en hidden">WhatsApp Direct Chat</span>
-                        </a>
-                        <a href="tel:9389265478" class="px-6 py-3.5 vedic-btn-saffron font-extrabold rounded-full shadow-lg flex items-center justify-center gap-2.5 text-base">
-                            <i class="fa-solid fa-phone text-base"></i>
-                            <span class="lang-hi">कॉल करें: 9389265478</span>
-                            <span class="lang-en hidden">Call: 9389265478</span>
-                        </a>
-                    </div>
                 </div>
 
-                <!-- Right Column: Profile Card -->
-                <div class="flex justify-center lg:justify-end scroll-animate" data-delay="200">
+                <!-- Right Column: Profile Card, Badges, and CTAs (with slide-in animation) -->
+                <div class="flex flex-col items-center lg:items-stretch animate-slide-in-right">
+                    <!-- Profile Card -->
+                    <div class="scroll-animate" data-delay="200">
                     <div class="light-card p-5 md:p-8 rounded-3xl w-full max-w-md mx-auto border-2 border-amber-300 shadow-xl flex flex-col items-center text-center my-2 relative">
                         <div class="absolute -top-4 bg-gradient-to-r from-amber-600 via-amber-500 to-amber-700 text-white text-xs font-outfit font-extrabold px-4 py-1 rounded-full shadow-md border border-amber-200">
                             <i class="fa-solid fa-award mr-1"></i>
-                            <span class="lang-hi">15 वर्षों का प्रामाणिक अनुभव</span>
-                            <span class="lang-en hidden">15 Years of Experience</span>
+                            15 वर्षों का प्रामाणिक अनुभव
                         </div>
                         <div class="relative w-44 h-44 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-amber-500 shadow-xl mb-4 bg-amber-50 mt-2">
                             <img src="images/main.jpg" alt="ज्योतिषाचार्य पं. विपिन महाराज, मातंगेश्वर धाम आश्रम, पीलीभीत" class="w-full h-full object-contain object-center" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1609342122563-a43ac8917a3a?auto=format&fit=crop&w=600&q=80';">
                             <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-red-950 via-red-950/80 to-transparent p-1.5 text-center">
-                                <span class="text-xs font-outfit text-amber-200 font-bold tracking-wide">
-                                    <span class="lang-hi">पं. विपिन महाराज</span>
-                                    <span class="lang-en hidden font-cinzel">Pt. Vipin Maharaj</span>
-                                </span>
+                                <span class="text-xs font-outfit text-amber-200 font-bold tracking-wide">पं. विपिन महाराज</span>
                             </div>
                         </div>
                         <div class="space-y-2.5 max-w-lg">
                             <span class="text-xs md:text-sm font-outfit font-bold px-4 py-1 bg-red-950 text-amber-100 rounded-full inline-block tracking-wider uppercase shadow-sm">
-                                <span class="lang-hi">पीठाधीश्वर — मातंगेश्वर धाम आश्रम</span>
-                                <span class="lang-en hidden">Peethadheeshwar — Matangeshwar Dham</span>
+                                पीठाधीश्वर — मातंगेश्वर धाम आश्रम
                             </span>
-                            <p class="text-amber-900 text-sm md:text-base font-bold pt-1">
-                                <span class="lang-hi">श्री सद्गुरु देव भगवान के पावन आशीर्वाद से जन-कल्याण</span>
-                                <span class="lang-en hidden font-outfit">Shree Sadguru Dev Bhagwan ke pawan aashirwaad se jan-kalyan</span>
-                            </p>
+                            <p class="text-amber-900 text-sm md:text-base font-bold pt-1">श्री सद्गुरु देव भगवान के पावन आशीर्वाद से जन-कल्याण</p>
                             <div class="pt-2.5 border-t border-amber-300 text-xs md:text-sm text-stone-900 font-outfit font-semibold flex items-center justify-center gap-1.5">
                                 <i class="fa-solid fa-location-dot text-red-700 text-base"></i>
-                                <span class="lang-hi"><strong class="text-red-950 font-bold">मातंगेश्वर धाम आश्रम, पूरनपुर, पीलीभीत</strong></span>
-                                <span class="lang-en hidden"><strong class="text-red-950 font-bold">Matangeshwar Dham Ashram, Puranpur, Pilibhit</strong></span>
+                                <strong class="text-red-950 font-bold">मातंगेश्वर धाम, पूरनपुर, पीलीभीत</strong>
                             </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <!-- Trust Badges & CTAs (Now below the image card) -->
+                    <div class="w-full max-w-md mx-auto mt-6 space-y-5">
+                        <!-- INTEGRATED TRUST BADGES -->
+                        <div class="grid grid-cols-2 gap-3 md:gap-4 font-outfit">
+                            <div class="p-2.5 bg-white/90 rounded-xl border border-amber-300 shadow-sm flex items-center justify-center gap-2 text-center">
+                                <i class="fa-solid fa-scroll text-amber-800 text-lg md:text-2xl flex-shrink-0"></i>
+                                <div><span class="block text-xs md:text-sm font-extrabold text-red-950 leading-tight">100% वैदिक विधान</span><span class="text-[10px] md:text-xs text-stone-700 font-semibold block">प्रामाणिक उपाय</span></div>
+                            </div>
+                            <div class="p-2.5 bg-white/90 rounded-xl border border-amber-300 shadow-sm flex items-center justify-center gap-2 text-center">
+                                <i class="fa-solid fa-comments text-emerald-700 text-lg md:text-2xl flex-shrink-0"></i>
+                                <div><span class="block text-xs md:text-sm font-extrabold text-red-950 leading-tight">प्रत्यक्ष व फोन परामर्श</span><span class="text-[10px] md:text-xs text-stone-700 font-semibold block">कॉल/आश्रम सुविधा</span></div>
+                            </div>
+                        </div>
+
+                        <!-- Call & WhatsApp CTAs -->
+                        <div class="flex flex-col sm:flex-row justify-center gap-3 md:gap-4 font-outfit">
+                            <a href="https://wa.me/919389265478?text=जय%20श्री%20राम,%20आचार्य%20जी%20मुझे%20परामर्श%20व%20अनुष्ठान%20के%20लिए%20संपर्क%20करना%20है।" target="_blank" class="px-6 py-3.5 whatsapp-btn font-extrabold rounded-full shadow-lg flex items-center justify-center gap-2.5 text-base">
+                                <i class="fa-brands fa-whatsapp text-xl"></i>
+                                व्हाट्सएप पर संपर्क करें
+                            </a>
+                            <a href="tel:9389265478" class="px-6 py-3.5 vedic-btn-call font-extrabold rounded-full shadow-lg flex items-center justify-center gap-2.5 text-base">
+                                <i class="fa-solid fa-phone text-base"></i>
+                                कॉल करें: +91-9389265478
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -246,18 +196,13 @@
         <div class="light-card p-5 md:p-8 rounded-3xl border-2 border-amber-300 shadow-lg text-center scroll-animate">
             
             <span class="text-xs font-outfit font-bold text-amber-900 tracking-widest uppercase bg-amber-100 px-4 py-1 rounded-full border border-amber-300 inline-block mb-3">
-                <span class="lang-hi">ज्योतिषीय गणना व नक्षत्र</span>
-                <span class="lang-en hidden">Jyotishiya Ganana & Nakshatra</span>
+                ज्योतिषीय गणना व नक्षत्र
             </span>
 
-            <h2 class="text-2xl md:text-4xl font-dev-title font-bold text-red-950 mb-3">
-                <span class="lang-hi">द्वादश (12) राशि एवं नवग्रह दोष निवारण</span>
-                <span class="lang-en hidden font-cinzel">Dwadash (12) Rashi & Navgraha Dosh Nivaran</span>
-            </h2>
+            <h2 class="text-2xl md:text-4xl font-dev-title font-bold text-red-950 mb-3">द्वादश (12) राशि एवं नवग्रह दोष निवारण</h2>
 
             <p class="text-stone-800 text-xs md:text-sm font-dev-body max-w-2xl mx-auto mb-6 leading-relaxed font-medium">
-                <span class="lang-hi">आपकी जन्म राशि, लग्न कुंडली व नक्षत्रों के सटीक विश्लेषण द्वारा शनि साढ़ेसाती, राहु-केतु बाधा एवं सर्व ग्रह शांति का प्रामाणिक वैदिक उपाय।</span>
-                <span class="lang-en hidden font-outfit">Aapki janma rashi, lagna kundali wa nakshatron ke satik vishleshan dwara Shani Sadesati, Rahu-Ketu badha evam sarva graha shanti ka pramanik Vedic upay.</span>
+                आपकी जन्म राशि, लग्न कुंडली व नक्षत्रों के सटीक विश्लेषण द्वारा शनि साढ़ेसाती, राहु-केतु बाधा एवं सर्व ग्रह शांति का प्रामाणिक वैदिक उपाय।
             </p>
 
             <!-- 3 ITEMS PER ROW ON MOBILE (grid-cols-3) -->
@@ -266,97 +211,63 @@
                 <div class="rashi-card p-2.5 md:p-3 rounded-2xl text-center shadow-sm flex flex-col items-center justify-center scroll-animate" data-delay="50">
                     <span class="text-xl md:text-3xl text-amber-800 font-bold mb-0.5">♈</span>
                     <span class="font-bold text-red-950 text-xs md:text-sm">
-                        <span class="lang-hi">मेष</span>
-                        <span class="lang-en hidden">Mesh</span>
+                        मेष
                     </span>
                 </div>
 
                 <div class="rashi-card p-2.5 md:p-3 rounded-2xl text-center shadow-sm flex flex-col items-center justify-center scroll-animate" data-delay="100">
                     <span class="text-xl md:text-3xl text-amber-800 font-bold mb-0.5">♉</span>
-                    <span class="font-bold text-red-950 text-xs md:text-sm">
-                        <span class="lang-hi">वृषभ</span>
-                        <span class="lang-en hidden">Vrishabh</span>
-                    </span>
+                    <span class="font-bold text-red-950 text-xs md:text-sm">वृषभ</span>
                 </div>
 
                 <div class="rashi-card p-2.5 md:p-3 rounded-2xl text-center shadow-sm flex flex-col items-center justify-center scroll-animate" data-delay="150">
                     <span class="text-xl md:text-3xl text-amber-800 font-bold mb-0.5">♊</span>
-                    <span class="font-bold text-red-950 text-xs md:text-sm">
-                        <span class="lang-hi">मिथुन</span>
-                        <span class="lang-en hidden">Mithun</span>
-                    </span>
+                    <span class="font-bold text-red-950 text-xs md:text-sm">मिथुन</span>
                 </div>
 
                 <div class="rashi-card p-2.5 md:p-3 rounded-2xl text-center shadow-sm flex flex-col items-center justify-center scroll-animate" data-delay="200">
                     <span class="text-xl md:text-3xl text-amber-800 font-bold mb-0.5">♋</span>
-                    <span class="font-bold text-red-950 text-xs md:text-sm">
-                        <span class="lang-hi">कर्क</span>
-                        <span class="lang-en hidden">Kark</span>
-                    </span>
+                    <span class="font-bold text-red-950 text-xs md:text-sm">कर्क</span>
                 </div>
 
                 <div class="rashi-card p-2.5 md:p-3 rounded-2xl text-center shadow-sm flex flex-col items-center justify-center scroll-animate" data-delay="250">
                     <span class="text-xl md:text-3xl text-amber-800 font-bold mb-0.5">♌</span>
-                    <span class="font-bold text-red-950 text-xs md:text-sm">
-                        <span class="lang-hi">सिंह</span>
-                        <span class="lang-en hidden">Singh</span>
-                    </span>
+                    <span class="font-bold text-red-950 text-xs md:text-sm">सिंह</span>
                 </div>
 
                 <div class="rashi-card p-2.5 md:p-3 rounded-2xl text-center shadow-sm flex flex-col items-center justify-center scroll-animate" data-delay="300">
                     <span class="text-xl md:text-3xl text-amber-800 font-bold mb-0.5">♍</span>
-                    <span class="font-bold text-red-950 text-xs md:text-sm">
-                        <span class="lang-hi">कन्या</span>
-                        <span class="lang-en hidden">Kanya</span>
-                    </span>
+                    <span class="font-bold text-red-950 text-xs md:text-sm">कन्या</span>
                 </div>
 
                 <div class="rashi-card p-2.5 md:p-3 rounded-2xl text-center shadow-sm flex flex-col items-center justify-center scroll-animate" data-delay="350">
                     <span class="text-xl md:text-3xl text-amber-800 font-bold mb-0.5">♎</span>
-                    <span class="font-bold text-red-950 text-xs md:text-sm">
-                        <span class="lang-hi">तुला</span>
-                        <span class="lang-en hidden">Tula</span>
-                    </span>
+                    <span class="font-bold text-red-950 text-xs md:text-sm">तुला</span>
                 </div>
 
                 <div class="rashi-card p-2.5 md:p-3 rounded-2xl text-center shadow-sm flex flex-col items-center justify-center scroll-animate" data-delay="400">
                     <span class="text-xl md:text-3xl text-amber-800 font-bold mb-0.5">♏</span>
-                    <span class="font-bold text-red-950 text-xs md:text-sm">
-                        <span class="lang-hi">वृश्चिक</span>
-                        <span class="lang-en hidden">Vrischik</span>
-                    </span>
+                    <span class="font-bold text-red-950 text-xs md:text-sm">वृश्चिक</span>
                 </div>
 
                 <div class="rashi-card p-2.5 md:p-3 rounded-2xl text-center shadow-sm flex flex-col items-center justify-center scroll-animate" data-delay="450">
                     <span class="text-xl md:text-3xl text-amber-800 font-bold mb-0.5">♐</span>
-                    <span class="font-bold text-red-950 text-xs md:text-sm">
-                        <span class="lang-hi">धनु</span>
-                        <span class="lang-en hidden">Dhanu</span>
-                    </span>
+                    <span class="font-bold text-red-950 text-xs md:text-sm">धनु</span>
                 </div>
 
                 <div class="rashi-card p-2.5 md:p-3 rounded-2xl text-center shadow-sm flex flex-col items-center justify-center scroll-animate" data-delay="500">
                     <span class="text-xl md:text-3xl text-amber-800 font-bold mb-0.5">♑</span>
-                    <span class="font-bold text-red-950 text-xs md:text-sm">
-                        <span class="lang-hi">मकर</span>
-                        <span class="lang-en hidden">Makar</span>
-                    </span>
+                    <span class="font-bold text-red-950 text-xs md:text-sm">मकर</span>
                 </div>
 
                 <div class="rashi-card p-2.5 md:p-3 rounded-2xl text-center shadow-sm flex flex-col items-center justify-center scroll-animate" data-delay="550">
                     <span class="text-xl md:text-3xl text-amber-800 font-bold mb-0.5">♒</span>
-                    <span class="font-bold text-red-950 text-xs md:text-sm">
-                        <span class="lang-hi">कुंभ</span>
-                        <span class="lang-en hidden">Kumbh</span>
-                    </span>
+                    <span class="font-bold text-red-950 text-xs md:text-sm">कुंभ</span>
                 </div>
 
                 <div class="rashi-card p-2.5 md:p-3 rounded-2xl text-center shadow-sm flex flex-col items-center justify-center scroll-animate" data-delay="600">
                     <span class="text-xl md:text-3xl text-amber-800 font-bold mb-0.5">♓</span>
-                    <span class="font-bold text-red-950 text-xs md:text-sm">
-                        <span class="lang-hi">मीन</span>
-                        <span class="lang-en hidden">Meen</span>
-                    </span>
+                    <span class="font-bold text-red-950 text-xs md:text-sm">मीन</span>
                 </div>
 
             </div>
@@ -368,34 +279,16 @@
     <section id="about" class="py-14 px-4 max-w-6xl mx-auto border-b border-amber-300">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div class="space-y-4 text-center md:text-left scroll-animate">
-                <span class="text-amber-900 font-outfit font-bold text-xs uppercase tracking-widest block">
-                    <span class="lang-hi">आश्रम परंपरा व सिद्धि</span>
-                    <span class="lang-en hidden">Ashram Parampara & Siddhi</span>
-                </span>
-                <h2 class="text-2xl md:text-3xl font-dev-title font-bold text-red-950 leading-snug">
-                    <span class="lang-hi">श्री सद्गुरु देव भगवान की कृपा एवं मातंगेश्वर धाम का दिव्य आभामंडल</span>
-                    <span class="lang-en hidden font-cinzel">Shree Sadguru Dev Bhagwan ki kripa evam Matangeshwar Dham ka divya aabhamandal</span>
-                </h2>
-                <p class="text-stone-800 text-base md:text-lg leading-relaxed font-dev-body font-medium">
-                    <span class="lang-hi">मातंगेश्वर धाम आश्रम, कनपारा (पूरनपुर बण्डा मार्ग) एक ऐसा पावन स्थल है जहाँ सनातन वैदिक परंपराओं, महा अनुष्ठानों और सटीक ज्योतिषीय गणनाओं द्वारा भक्तों के संकटों का निवारण किया जाता है। ज्योतिषाचार्य पं. विपिन महाराज जी सद्गुरु देव भगवान के आशीर्वाद से हजारों परिवारों को मानसिक, आर्थिक व शारीरिक बाधाओं से मुक्ति दिला चुके हैं।</span>
-                    <span class="lang-en hidden font-outfit">Matangeshwar Dham Ashram, Kanpara (Puranpur Banda Marg) ek aisa pawan sthal hai jahan Sanatan Vedic paramparao, maha anushthano aur satik jyotishiya ganana dwara bhakton ke sankaton ka nivaran kiya jata hai. Jyotishacharya Pt. Vipin Maharaj ji Sadguru Dev Bhagwan ke aashirwaad se hazaron parivaron ko mansik, aarthik wa sharirik badhao se mukti dila chuke hain.</span>
-                </p>
+                <span class="text-amber-900 font-outfit font-bold text-xs uppercase tracking-widest block">आश्रम परंपरा व सिद्धि</span>
+                <h2 class="text-2xl md:text-3xl font-dev-title font-bold text-red-950 leading-snug">श्री सद्गुरु देव भगवान की कृपा एवं मातंगेश्वर धाम का दिव्य आभामंडल</h2>
+                <p class="text-stone-800 text-base md:text-lg leading-relaxed font-dev-body font-medium">मातंगेश्वर धाम आश्रम, कनपारा (पूरनपुर बण्डा मार्ग) एक ऐसा पावन स्थल है जहाँ सनातन वैदिक परंपराओं, महा अनुष्ठानों और सटीक ज्योतिषीय गणनाओं द्वारा भक्तों के संकटों का निवारण किया जाता है। ज्योतिषाचार्य पं. विपिन महाराज जी सद्गुरु देव भगवान के आशीर्वाद से हजारों परिवारों को मानसिक, आर्थिक व शारीरिक बाधाओं से मुक्ति दिला चुके हैं।</p>
             </div>
 
             <div class="light-card p-6 md:p-8 rounded-2xl text-center relative border-2 border-amber-300 shadow-md scroll-animate" data-delay="200">
                 <div class="text-amber-700 text-4xl mb-3"><i class="fa-solid fa-hands-praying"></i></div>
-                <h3 class="text-lg md:text-xl font-dev-title font-bold text-red-950 mb-3">
-                    <span class="lang-hi">मुख्य ध्येय: जन-कल्याण एवं दुख निवारण</span>
-                    <span class="lang-en hidden font-cinzel">Mukhya Dheya: Jan-Kalyan & Dukh Nivaran</span>
-                </h3>
-                <p class="text-stone-800 text-base md:text-lg italic leading-relaxed font-dev-body font-medium">
-                    <span class="lang-hi">"चाहे व्यापार में लगातार हानि हो, गृह-कलेश हो, तंत्र-बाधा हो या संतान प्राप्ति में विलंब—वैदिक अनुष्ठानों व ग्रह शांति द्वारा हर समस्या का धर्मसंगत समाधान संभव है।"</span>
-                    <span class="lang-en hidden font-outfit">"Chahe vyapar me lagatar hani ho, grih-klesh ho, tantra-badha ho ya santan prapti me vilamb—Vedic anushthano wa graha shanti dwara har samasya ka satik samadhan sambhav hai."</span>
-                </p>
-                <div class="mt-4 pt-4 border-t border-amber-300 text-sm font-outfit text-red-950 font-bold tracking-wide">
-                    <span class="lang-hi">— ज्योतिषाचार्य पं. विपिन महाराज</span>
-                    <span class="lang-en hidden">— Jyotishacharya Pt. Vipin Maharaj</span>
-                </div>
+                <h3 class="text-lg md:text-xl font-dev-title font-bold text-red-950 mb-3">मुख्य ध्येय: जन-कल्याण एवं दुख निवारण</h3>
+                <p class="text-stone-800 text-base md:text-lg italic leading-relaxed font-dev-body font-medium">"चाहे व्यापार में लगातार हानि हो, गृह-कलेश हो, तंत्र-बाधा हो या संतान प्राप्ति में विलंब—वैदिक अनुष्ठानों व ग्रह शांति द्वारा हर समस्या का धर्मसंगत समाधान संभव है।"</p>
+                <div class="mt-4 pt-4 border-t border-amber-300 text-sm font-outfit text-red-950 font-bold tracking-wide">— ज्योतिषाचार्य पं. विपिन महाराज</div>
             </div>
         </div>
     </section>
@@ -403,48 +296,34 @@
     <!-- Consultation Services Section (6 Specific Services) -->
     <section id="services" class="py-16 px-4 max-w-7xl mx-auto">
         <div class="text-center mb-10 scroll-animate">
-            <h2 class="text-3xl md:text-4xl font-dev-title font-bold maroon-gradient-text mb-3">
-                <span class="lang-hi">ज्योतिषीय परामर्श एवं समाधान क्षेत्र</span>
-                <span class="lang-en hidden font-cinzel">Jyotishiya Paramarsh & Samadhan Kshetra</span>
-            </h2>
+            <h2 class="text-3xl md:text-4xl font-dev-title font-bold maroon-gradient-text mb-3">ज्योतिषीय परामर्श एवं समाधान क्षेत्र</h2>
             <div class="w-28 h-1 bg-gradient-to-r from-red-700 via-amber-500 to-red-700 mx-auto rounded-full mb-3"></div>
-            <p class="text-stone-800 text-base md:text-lg font-outfit font-semibold max-w-2xl mx-auto">
-                <span class="lang-hi">आपकी कुंडली के ग्रह नक्षत्रों के आधार पर सटीक विश्लेषण एवं प्रामाणिक वैदिक उपाय</span>
-                <span class="lang-en hidden">Aapki kundali ke graha nakshatron ke aadhar par satik vishleshan evam pramanik Vedic upay</span>
-            </p>
+            <p class="text-stone-800 text-base md:text-lg font-outfit font-semibold max-w-2xl mx-auto">आपकी कुंडली के ग्रह नक्षत्रों के आधार पर सटीक विश्लेषण एवं प्रामाणिक वैदिक उपाय</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
-            <div class="light-card p-6 rounded-2xl scroll-animate"><div class="w-12 h-12 bg-amber-100 text-amber-900 rounded-xl flex items-center justify-center text-2xl mb-4 border border-amber-300 shadow-sm"><i class="fa-solid fa-shield-halved"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2"><span class="lang-hi">1. तंत्र काट एवं सुरक्षा</span><span class="lang-en hidden font-outfit">1. Tantra Protection</span></h3><p class="text-stone-800 text-sm md:text-base leading-relaxed font-medium"><span class="lang-hi">जीवन में आ रही अज्ञात बाधाओं, नकारात्मक ऊर्जा और किया-कराया जैसी समस्याओं से पूर्ण वैदिक सुरक्षा एवं निवारण।</span><span class="lang-en hidden font-outfit">Complete Vedic protection and removal of unknown obstacles, negative energy, and black magic-like issues in life.</span></p></div>
-            <div class="light-card p-6 rounded-2xl scroll-animate" data-delay="100"><div class="w-12 h-12 bg-amber-100 text-amber-900 rounded-xl flex items-center justify-center text-2xl mb-4 border border-amber-300 shadow-sm"><i class="fa-solid fa-heart"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2"><span class="lang-hi">2. प्रेम व वैवाहिक जीवन</span><span class="lang-en hidden font-outfit">2. Love & Marriage</span></h3><p class="text-stone-800 text-sm md:text-base leading-relaxed font-medium"><span class="lang-hi">प्रेम विवाह में आ रही सामाजिक, पारिवारिक और ग्रहों की बाधाओं को दूर कर सुखी वैवाहिक जीवन का मार्ग प्रशस्त करें।</span><span class="lang-en hidden font-outfit">Pave the way for a happy married life by removing social, familial, and planetary obstacles in love marriage.</span></p></div>
-            <div class="light-card p-6 rounded-2xl scroll-animate" data-delay="200"><div class="w-12 h-12 bg-amber-100 text-amber-900 rounded-xl flex items-center justify-center text-2xl mb-4 border border-amber-300 shadow-sm"><i class="fa-solid fa-landmark"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2"><span class="lang-hi">3. राजनीति में सफलता</span><span class="lang-en hidden font-outfit">3. Political Success</span></h3><p class="text-stone-800 text-sm md:text-base leading-relaxed font-medium"><span class="lang-hi">राजनीतिक करियर में उन्नति, जन-समर्थन प्राप्ति और शत्रु विजय के लिए विशेष राजयोग कारक अनुष्ठान एवं मार्गदर्शन।</span><span class="lang-en hidden font-outfit">Special Rajyoga-inducing rituals and guidance for advancement in political career, gaining public support, and victory over enemies.</span></p></div>
-            <div class="light-card p-6 rounded-2xl scroll-animate" data-delay="300"><div class="w-12 h-12 bg-amber-100 text-amber-900 rounded-xl flex items-center justify-center text-2xl mb-4 border border-amber-300 shadow-sm"><i class="fa-solid fa-briefcase"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2"><span class="lang-hi">4. नौकरी एवं व्यापार</span><span class="lang-en hidden font-outfit">4. Job & Business</span></h3><p class="text-stone-800 text-sm md:text-base leading-relaxed font-medium"><span class="lang-hi">नौकरी में पदोन्नति, व्यापार में वृद्धि, आर्थिक संकट एवं करियर में स्थिरता के लिए सटीक ज्योतिषीय उपाय और अनुष्ठान।</span><span class="lang-en hidden font-outfit">Precise astrological remedies and rituals for promotion in job, business growth, financial crisis, and career stability.</span></p></div>
-            <div class="light-card p-6 rounded-2xl scroll-animate" data-delay="400"><div class="w-12 h-12 bg-amber-100 text-amber-900 rounded-xl flex items-center justify-center text-2xl mb-4 border border-amber-300 shadow-sm"><i class="fa-solid fa-baby"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2"><span class="lang-hi">5. संतान सुख प्राप्ति</span><span class="lang-en hidden font-outfit">5. Child Progeny</span></h3><p class="text-stone-800 text-sm md:text-base leading-relaxed font-medium"><span class="lang-hi">संतान प्राप्ति में आ रही बाधाओं का ज्योतिषीय विश्लेषण और विशेष अनुष्ठान द्वारा घर में खुशियों का आगमन।</span><span class="lang-en hidden font-outfit">Astrological analysis of obstacles in conceiving a child and welcoming happiness into the home through special rituals.</span></p></div>
-            <div class="light-card p-6 rounded-2xl scroll-animate" data-delay="500"><div class="w-12 h-12 bg-amber-100 text-amber-900 rounded-xl flex items-center justify-center text-2xl mb-4 border border-amber-300 shadow-sm"><i class="fa-solid fa-user-ninja"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2"><span class="lang-hi">6. शत्रु एवं कोर्ट केस</span><span class="lang-en hidden font-outfit">6. Enemy & Court Cases</span></h3><p class="text-stone-800 text-sm md:text-base leading-relaxed font-medium"><span class="lang-hi">गुप्त शत्रुओं से रक्षा, कोर्ट-कचहरी के मामलों में विजय और हर प्रकार के वाद-विवाद की शांति हेतु माँ बगलामुखी अनुष्ठान।</span><span class="lang-en hidden font-outfit">Protection from hidden enemies, victory in court cases, and resolution of all disputes through Maa Baglamukhi rituals.</span></p></div>
-            <div class="light-card p-6 rounded-2xl scroll-animate" data-delay="600"><div class="w-12 h-12 bg-amber-100 text-amber-900 rounded-xl flex items-center justify-center text-2xl mb-4 border border-amber-300 shadow-sm"><i class="fa-solid fa-ankh"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2"><span class="lang-hi">7. श्री विद्या अर्चन</span><span class="lang-en hidden font-outfit">7. Shri Vidya Archan</span></h3><p class="text-stone-800 text-sm md:text-base leading-relaxed font-medium"><span class="lang-hi">दश महाविद्याओं में श्रेष्ठ, माँ ललिता त्रिपुर सुंदरी की गुप्त साधना। भौतिक एवं आध्यात्मिक उन्नति हेतु।</span><span class="lang-en hidden font-outfit">The highest of the Dasha Mahavidyas, a secret sadhana of Maa Lalita Tripura Sundari for material and spiritual progress.</span></p></div>
+            <div class="light-card p-6 rounded-2xl scroll-animate"><div class="w-12 h-12 bg-amber-100 text-amber-900 rounded-xl flex items-center justify-center text-2xl mb-4 border border-amber-300 shadow-sm"><i class="fa-solid fa-shield-halved"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2">1. तंत्र काट एवं सुरक्षा</h3><p class="text-stone-800 text-sm md:text-base leading-relaxed font-medium">जीवन में आ रही अज्ञात बाधाओं, नकारात्मक ऊर्जा और किया-कराया जैसी समस्याओं से पूर्ण वैदिक सुरक्षा एवं निवारण।</p></div>
+            <div class="light-card p-6 rounded-2xl scroll-animate" data-delay="100"><div class="w-12 h-12 bg-amber-100 text-amber-900 rounded-xl flex items-center justify-center text-2xl mb-4 border border-amber-300 shadow-sm"><i class="fa-solid fa-heart"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2">2. प्रेम व वैवाहिक जीवन</h3><p class="text-stone-800 text-sm md:text-base leading-relaxed font-medium">प्रेम विवाह में आ रही सामाजिक, पारिवारिक और ग्रहों की बाधाओं को दूर कर सुखी वैवाहिक जीवन का मार्ग प्रशस्त करें।</p></div>
+            <div class="light-card p-6 rounded-2xl scroll-animate" data-delay="200"><div class="w-12 h-12 bg-amber-100 text-amber-900 rounded-xl flex items-center justify-center text-2xl mb-4 border border-amber-300 shadow-sm"><i class="fa-solid fa-landmark"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2">3. राजनीति में सफलता</h3><p class="text-stone-800 text-sm md:text-base leading-relaxed font-medium">राजनीतिक करियर में उन्नति, जन-समर्थन प्राप्ति और शत्रु विजय के लिए विशेष राजयोग कारक अनुष्ठान एवं मार्गदर्शन।</p></div>
+            <div class="light-card p-6 rounded-2xl scroll-animate" data-delay="300"><div class="w-12 h-12 bg-amber-100 text-amber-900 rounded-xl flex items-center justify-center text-2xl mb-4 border border-amber-300 shadow-sm"><i class="fa-solid fa-briefcase"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2">4. नौकरी एवं व्यापार</h3><p class="text-stone-800 text-sm md:text-base leading-relaxed font-medium">नौकरी में पदोन्नति, व्यापार में वृद्धि, आर्थिक संकट एवं करियर में स्थिरता के लिए सटीक ज्योतिषीय उपाय और अनुष्ठान।</p></div>
+            <div class="light-card p-6 rounded-2xl scroll-animate" data-delay="400"><div class="w-12 h-12 bg-amber-100 text-amber-900 rounded-xl flex items-center justify-center text-2xl mb-4 border border-amber-300 shadow-sm"><i class="fa-solid fa-baby"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2">5. संतान सुख प्राप्ति</h3><p class="text-stone-800 text-sm md:text-base leading-relaxed font-medium">संतान प्राप्ति में आ रही बाधाओं का ज्योतिषीय विश्लेषण और विशेष अनुष्ठान द्वारा घर में खुशियों का आगमन।</p></div>
+            <div class="light-card p-6 rounded-2xl scroll-animate" data-delay="500"><div class="w-12 h-12 bg-amber-100 text-amber-900 rounded-xl flex items-center justify-center text-2xl mb-4 border border-amber-300 shadow-sm"><i class="fa-solid fa-user-ninja"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2">6. शत्रु एवं कोर्ट केस</h3><p class="text-stone-800 text-sm md:text-base leading-relaxed font-medium">गुप्त शत्रुओं से रक्षा, कोर्ट-कचहरी के मामलों में विजय और हर प्रकार के वाद-विवाद की शांति हेतु माँ बगलामुखी अनुष्ठान।</p></div>
+            <div class="light-card p-6 rounded-2xl scroll-animate" data-delay="600"><div class="w-12 h-12 bg-amber-100 text-amber-900 rounded-xl flex items-center justify-center text-2xl mb-4 border border-amber-300 shadow-sm"><i class="fa-solid fa-ankh"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2">7. श्री विद्या अर्चन</h3><p class="text-stone-800 text-sm md:text-base leading-relaxed font-medium">दश महाविद्याओं में श्रेष्ठ, माँ ललिता त्रिपुर सुंदरी की गुप्त साधना। भौतिक एवं आध्यात्मिक उन्नति हेतु।</p></div>
         </div>
 
         <!-- COMPACT CONSULTATION BANNER (Side-by-Side Buttons) -->
         <div class="mt-8 light-card p-5 md:p-6 rounded-3xl border-2 border-amber-400 bg-gradient-to-r from-red-950 via-red-900 to-amber-950 text-white text-center shadow-xl scroll-animate">
-            <h3 class="text-xl md:text-2xl font-dev-title font-bold text-yellow-300 mb-1">
-                <span class="lang-hi">त्वरित ज्योतिषीय परामर्श हेतु संपर्क करें</span>
-                <span class="lang-en hidden font-cinzel">Twarit Jyotishiya Paramarsh Hetu Sampark Karein</span>
-            </h3>
-            <p class="text-amber-100/90 text-xs md:text-sm font-outfit max-w-xl mx-auto mb-4 font-medium">
-                <span class="lang-hi">आश्रम मुलाकात या फोन पर पाएं सटीक समाधान</span>
-                <span class="lang-en hidden">Ashram mulakat ya phone par paayein satik samadhan</span>
-            </p>
+            <h3 class="text-xl md:text-2xl font-dev-title font-bold text-yellow-300 mb-1">त्वरित ज्योतिषीय परामर्श हेतु संपर्क करें</h3>
+            <p class="text-amber-100/90 text-xs md:text-sm font-outfit max-w-xl mx-auto mb-4 font-medium">आश्रम मुलाकात या फोन पर पाएं सटीक समाधान</p>
             
             <div class="flex flex-row justify-center items-center gap-2 md:gap-4 font-outfit text-xs md:text-sm">
                 <a href="tel:9389265478" class="flex-1 max-w-[200px] md:max-w-none py-2.5 px-3 md:px-6 vedic-btn-gold font-bold rounded-full shadow-md transition flex items-center justify-center gap-1.5 whitespace-nowrap">
                     <i class="fa-solid fa-phone"></i>
-                    <span class="lang-hi">कॉल करें</span>
-                    <span class="lang-en hidden">Call Now</span>
+                    कॉल करें
                 </a>
                 <a href="https://wa.me/919389265478?text=जय%20श्री%20राम,%20मुझे%20परामर्श%20चाहिए।" target="_blank" class="flex-1 max-w-[200px] md:max-w-none py-2.5 px-3 md:px-6 vedic-btn-outline font-bold rounded-full shadow-md transition flex items-center justify-center gap-1.5 whitespace-nowrap">
                     <i class="fa-brands fa-whatsapp text-base"></i>
-                    <span class="lang-hi">व्हाट्सएप</span>
-                    <span class="lang-en hidden">WhatsApp</span>
+                    व्हाट्सएप
                 </a>
             </div>
         </div>
@@ -453,113 +332,82 @@
     <!-- Grand Anushthans Section -->
     <section id="anushthan" class="py-16 px-4 max-w-7xl mx-auto bg-amber-100/60 border-y border-amber-300">
         <div class="text-center mb-12 scroll-animate">
-            <div class="inline-block px-4 py-1.5 bg-red-950 text-amber-100 text-xs font-outfit font-bold rounded-full mb-3 shadow-sm">
-                <span class="lang-hi">सभी प्रकार के धार्मिक अनुष्ठान के लिए संपर्क करें</span>
-                <span class="lang-en hidden">Sabhi prakar ke dharmik anushthan ke liye sampark karein</span>
-            </div>
-            <h2 class="text-3xl md:text-4xl font-dev-title font-bold maroon-gradient-text mb-3">
-                <span class="lang-hi">बड़े धार्मिक अनुष्ठान एवं महायज्ञ आयोजन</span>
-                <span class="lang-en hidden font-cinzel">Bade Dharmik Anushthan & Mahayajna Aayojan</span>
-            </h2>
+            <div class="inline-block px-4 py-1.5 bg-red-950 text-amber-100 text-xs font-outfit font-bold rounded-full mb-3 shadow-sm">सभी प्रकार के धार्मिक अनुष्ठान के लिए संपर्क करें</div>
+            <h2 class="text-3xl md:text-4xl font-dev-title font-bold maroon-gradient-text mb-3">बड़े धार्मिक अनुष्ठान एवं महायज्ञ आयोजन</h2>
             <div class="w-32 h-1 bg-amber-500 mx-auto rounded-full mb-3"></div>
-            <p class="text-stone-800 text-base md:text-lg font-outfit font-semibold max-w-3xl mx-auto">
-                <span class="lang-hi">आश्रम द्वारा आपके निवास, प्रतिष्ठान या मातंगेश्वर धाम आश्रम में आयोजित किए जाने वाले दिव्य अनुष्ठान</span>
-                <span class="lang-en hidden">Ashram dwara aapke niwas, pratishthan ya Matangeshwar Dham Ashram me aayojit kiye jaane wale divya anushthan</span>
-            </p>
+            <p class="text-stone-800 text-base md:text-lg font-outfit font-semibold max-w-3xl mx-auto">आश्रम द्वारा आपके निवास, प्रतिष्ठान या मातंगेश्वर धाम आश्रम में आयोजित किए जाने वाले दिव्य अनुष्ठान</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
-            <div class="light-card p-6 rounded-2xl relative scroll-animate"><div class="text-red-800 text-3xl mb-3"><i class="fa-solid fa-book-open-reader"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2"><span class="lang-hi">1. श्री रामचरितमानस पाठ एवं नवाह्न</span><span class="lang-en hidden font-outfit">1. Shree Ramcharitmanas Paath & Navahn</span></h3><p class="text-stone-800 text-sm md:text-base leading-relaxed mb-4 font-medium"><span class="lang-hi">अखण्ड रामायण पाठ, नवाह्न परायण पाठ एवं श्री राम कथा। घर में सुख, शांति व समृद्धि का वास होता है।</span><span class="lang-en hidden font-outfit">Akhand Ramayan Paath, Navahn Parayan Paath evam Shree Ram Katha. Ghar me sukh, shanti wa samriddhi ka vaas hota hai.</span></p><span class="text-xs font-outfit font-bold text-amber-950 bg-amber-100 px-3 py-1 rounded-full border border-amber-300"><span class="lang-hi">घर / आश्रम में आयोजन</span><span class="lang-en hidden">Ghar / Ashram me Aayojan</span></span></div>
-            <div class="light-card p-6 rounded-2xl relative scroll-animate" data-delay="100"><div class="text-amber-800 text-3xl mb-3"><i class="fa-solid fa-water"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2"><span class="lang-hi">2. महा रुद्राभिषेक एवं अतिरुद्र यज्ञ</span><span class="lang-en hidden font-outfit">2. Maha Rudrabhishek & Atirudra Yajna</span></h3><p class="text-stone-800 text-sm md:text-base leading-relaxed mb-4 font-medium"><span class="lang-hi">भगवान शिव का विशेष अभिषेक। असाध्य रोग, अकाल मृत्यु भय व ग्रह बाधा निवारण हेतु सर्वश्रेष्ठ।</span><span class="lang-en hidden font-outfit">Bhagwan Shiv ka vishesh abhishekar. Asadhya rog, akaal mrityu bhay wa graha badha nivaran hetu sarvashreshtha.</span></p><span class="text-xs font-outfit font-bold text-amber-950 bg-amber-100 px-3 py-1 rounded-full border border-amber-300"><span class="lang-hi">रोग व संकट निवारण</span><span class="lang-en hidden">Rog wa Sankat Nivaran</span></span></div>
-            <div class="light-card p-6 rounded-2xl relative border-amber-400 scroll-animate" data-delay="200"><div class="text-amber-700 text-3xl mb-3"><i class="fa-solid fa-sun"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2"><span class="lang-hi">3. मां पीताम्बरा (बगलामुखी) अनुष्ठान</span><span class="lang-en hidden font-outfit">3. Maa Pitambara (Baglamukhi) Anushthan</span></h3><p class="text-stone-800 text-sm md:text-base leading-relaxed mb-4 font-medium"><span class="lang-hi">शत्रु स्तंभन, कोर्ट-कचहरी विजय, वाद-विवाद शांति एवं प्रचंड तपोबल प्राप्ति हेतु गुप्त साधना।</span><span class="lang-en hidden font-outfit">Shatru stambhan, court-kachahri vijay, vaad-vivad shanti evam prachand tapobal prapti hetu gupt sadhana.</span></p><span class="text-xs font-outfit font-bold text-red-950 bg-red-100 px-3 py-1 rounded-full border border-red-300"><span class="lang-hi">विशेष गुप्त साधना</span><span class="lang-en hidden">Vishesh Gupt Sadhana</span></span></div>
-            <div class="light-card p-6 rounded-2xl relative scroll-animate" data-delay="300"><div class="text-red-800 text-3xl mb-3"><i class="fa-solid fa-fire"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2"><span class="lang-hi">4. माँ शतचंडी एवं नवचंडी महायज्ञ</span><span class="lang-en hidden font-outfit">4. Maa Shatchandi & Navchandi Mahayajna</span></h3><p class="text-stone-800 text-sm md:text-base leading-relaxed mb-4 font-medium"><span class="lang-hi">दुर्गा सप्तशती के 100 पाठों के साथ विशाल हवन। सर्व-कल्याण, ऐश्वर्य वृद्धि एवं भय मुक्ति।</span><span class="lang-en hidden font-outfit">Durga Saptashati ke 100 paathon ke saath vishal havan. Sarva-kalyan, aishwarya vriddhi evam bhay mukti.</span></p><span class="text-xs font-outfit font-bold text-amber-950 bg-amber-100 px-3 py-1 rounded-full border border-amber-300"><span class="lang-hi">सर्व-मनोकामना पूर्ति</span><span class="lang-en hidden">Sarva-Manokamna Poorti</span></span></div>
-            <div class="light-card p-6 rounded-2xl relative scroll-animate" data-delay="400"><div class="text-amber-800 text-3xl mb-3"><i class="fa-solid fa-circle-nodes"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2"><span class="lang-hi">5. नवग्रह शांति व ग्रह जाप अनुष्ठान</span><span class="lang-en hidden font-outfit">5. Navgraha Shanti & Graha Jaap</span></h3><p class="text-stone-800 text-sm md:text-base leading-relaxed mb-4 font-medium"><span class="lang-hi">शनि की साढ़ेसाती, राहु-केतु महादशा, गुरु चांडाल दोष एवं सर्व ग्रह अनुकूलता हेतु मंत्र जाप।</span><span class="lang-en hidden font-outfit">Shani ki Sadesati, Rahu-Ketu mahadasha, Guru Chandal dosh evam sarva graha anukoolta hetu mantra jaap.</span></p><span class="text-xs font-outfit font-bold text-amber-950 bg-amber-100 px-3 py-1 rounded-full border border-amber-300"><span class="lang-hi">ग्रह दोष शांति</span><span class="lang-en hidden">Graha Dosh Shanti</span></span></div>
-            <div class="light-card p-6 rounded-2xl relative scroll-animate" data-delay="500"><div class="text-amber-800 text-3xl mb-3"><i class="fa-solid fa-hands-praying"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2"><span class="lang-hi">6. पितृ दोष शांति एवं नारायण नागबली</span><span class="lang-en hidden font-outfit">6. Pitru Dosh Shanti & Narayan Nagbali</span></h3><p class="text-stone-800 text-sm md:text-base leading-relaxed mb-4 font-medium"><span class="lang-hi">पूर्वजों की आत्मा की शांति, पितृ दोष मुक्ति व घर में शुभ कार्यों की रुकावट दूर करने हेतु अनुष्ठान।</span><span class="lang-en hidden font-outfit">Poorvajon ki aatma ki shanti, Pitru dosh mukti wa ghar me shubh karyon ki rukawat door karne hetu anushthan.</span></p><span class="text-xs font-outfit font-bold text-amber-950 bg-amber-100 px-3 py-1 rounded-full border border-amber-300"><span class="lang-hi">वंश वृद्धि व शांति</span><span class="lang-en hidden">Vansh Vriddhi wa Shanti</span></span></div>
+            <div class="light-card p-6 rounded-2xl relative scroll-animate"><div class="text-red-800 text-3xl mb-3"><i class="fa-solid fa-book-open-reader"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2">1. श्री रामचरितमानस पाठ एवं नवाह्न</h3><p class="text-stone-800 text-sm md:text-base leading-relaxed mb-4 font-medium">अखण्ड रामायण पाठ, नवाह्न परायण पाठ एवं श्री राम कथा। घर में सुख, शांति व समृद्धि का वास होता है।</p><span class="text-xs font-outfit font-bold text-amber-950 bg-amber-100 px-3 py-1 rounded-full border border-amber-300">घर / आश्रम में आयोजन</span></div>
+            <div class="light-card p-6 rounded-2xl relative scroll-animate" data-delay="100"><div class="text-amber-800 text-3xl mb-3"><i class="fa-solid fa-water"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2">2. महा रुद्राभिषेक एवं अतिरुद्र यज्ञ</h3><p class="text-stone-800 text-sm md:text-base leading-relaxed mb-4 font-medium">भगवान शिव का विशेष अभिषेक। असाध्य रोग, अकाल मृत्यु भय व ग्रह बाधा निवारण हेतु सर्वश्रेष्ठ।</p><span class="text-xs font-outfit font-bold text-amber-950 bg-amber-100 px-3 py-1 rounded-full border border-amber-300">रोग व संकट निवारण</span></div>
+            <div class="light-card p-6 rounded-2xl relative border-amber-400 scroll-animate" data-delay="200"><div class="text-amber-700 text-3xl mb-3"><i class="fa-solid fa-sun"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2">3. मां पीताम्बरा (बगलामुखी) अनुष्ठान</h3><p class="text-stone-800 text-sm md:text-base leading-relaxed mb-4 font-medium">शत्रु स्तंभन, कोर्ट-कचहरी विजय, वाद-विवाद शांति एवं प्रचंड तपोबल प्राप्ति हेतु गुप्त साधना।</p><span class="text-xs font-outfit font-bold text-red-950 bg-red-100 px-3 py-1 rounded-full border border-red-300">विशेष गुप्त साधना</span></div>
+            <div class="light-card p-6 rounded-2xl relative scroll-animate" data-delay="300"><div class="text-red-800 text-3xl mb-3"><i class="fa-solid fa-fire"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2">4. माँ शतचंडी एवं नवचंडी महायज्ञ</h3><p class="text-stone-800 text-sm md:text-base leading-relaxed mb-4 font-medium">दुर्गा सप्तशती के 100 पाठों के साथ विशाल हवन। सर्व-कल्याण, ऐश्वर्य वृद्धि एवं भय मुक्ति।</p><span class="text-xs font-outfit font-bold text-amber-950 bg-amber-100 px-3 py-1 rounded-full border border-amber-300">सर्व-मनोकामना पूर्ति</span></div>
+            <div class="light-card p-6 rounded-2xl relative scroll-animate" data-delay="400"><div class="text-amber-800 text-3xl mb-3"><i class="fa-solid fa-circle-nodes"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2">5. नवग्रह शांति व ग्रह जाप अनुष्ठान</h3><p class="text-stone-800 text-sm md:text-base leading-relaxed mb-4 font-medium">शनि की साढ़ेसाती, राहु-केतु महादशा, गुरु चांडाल दोष एवं सर्व ग्रह अनुकूलता हेतु मंत्र जाप।</p><span class="text-xs font-outfit font-bold text-amber-950 bg-amber-100 px-3 py-1 rounded-full border border-amber-300">ग्रह दोष शांति</span></div>
+            <div class="light-card p-6 rounded-2xl relative scroll-animate" data-delay="500"><div class="text-amber-800 text-3xl mb-3"><i class="fa-solid fa-hands-praying"></i></div><h3 class="text-xl font-dev-title font-bold text-red-950 mb-2">6. पितृ दोष शांति एवं नारायण नागबली</h3><p class="text-stone-800 text-sm md:text-base leading-relaxed mb-4 font-medium">पूर्वजों की आत्मा की शांति, पितृ दोष मुक्ति व घर में शुभ कार्यों की रुकावट दूर करने हेतु अनुष्ठान।</p><span class="text-xs font-outfit font-bold text-amber-950 bg-amber-100 px-3 py-1 rounded-full border border-amber-300">वंश वृद्धि व शांति</span></div>
             
         </div>
 
         <div class="mt-10 text-center font-outfit scroll-animate">
             <a href="https://wa.me/919389265478?text=जय%20श्री%20राम,%20मुझे%20अनुष्ठान%20का%20आयोजन%20करवाना%20है।" target="_blank" class="inline-flex items-center gap-2 px-8 py-4 vedic-btn-saffron font-extrabold rounded-full shadow-lg hover:scale-105 transition text-base">
                 <i class="fa-solid fa-calendar-check text-lg"></i>
-                <span class="lang-hi">अनुष्ठान तिथि बुक करें</span>
-                <span class="lang-en hidden">Anushthan Date Book Karein</span>
+                अनुष्ठान तिथि बुक करें
             </a>
         </div>
     </section>
 
-    <!-- Unified Media Gallery Section -->
     <!-- Unified Image Gallery Section -->
     <section id="gallery" class="py-16 px-4 max-w-7xl mx-auto border-b border-amber-300">
         <div class="text-center mb-10 scroll-animate">
-            <span class="text-amber-900 font-outfit font-bold text-xs uppercase tracking-widest block mb-1">
-                <span class="lang-hi">दिव्य दर्शन</span>
-                <span class="lang-en hidden">Divya Darshan</span>
-            </span>
-            <h2 class="text-3xl md:text-4xl font-dev-title font-bold text-red-950">
-                <span class="lang-hi">मीडिया गैलरी</span>
-                <span class="lang-en hidden font-cinzel">Media Gallery</span>
-            <h2 class="text-3xl md:text-4xl font-dev-title font-bold text-red-950 leading-tight">
-                <span class="lang-hi">आश्रम एवं अनुष्ठान गैलरी</span>
-                <span class="lang-en hidden font-cinzel">Ashram & Rituals Gallery</span>
-            </h2>
+            <span class="text-amber-900 font-outfit font-bold text-xs uppercase tracking-widest block mb-1">दिव्य दर्शन</span>
+            <h2 class="text-3xl md:text-4xl font-dev-title font-bold text-red-950">मीडिया गैलरी</h2>
+            <h2 class="text-3xl md:text-4xl font-dev-title font-bold text-red-950 leading-tight">आश्रम एवं अनुष्ठान गैलरी</h2>
             <div class="w-24 h-1 bg-amber-500 mx-auto rounded-full mt-2"></div>
-            <p class="text-stone-800 text-xs md:text-sm font-outfit font-medium mt-2">महाराज जी के प्रवचन, पूजा-पाठ एवं आश्रम में आयोजित अनुष्ठानों के दिव्य दृश्य।</p>
             <p class="text-stone-800 text-xs md:text-sm font-outfit font-medium mt-2">मातंगेश्वर धाम आश्रम में आयोजित धार्मिक अनुष्ठानों एवं पूजा-पाठ के दिव्य दृश्य।</p>
         </div>
 
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
         <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 font-outfit">
-            <!-- Gallery Item 1 (Image) -->
-            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate"><div class="h-48 md:h-64 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/image1.jpg" alt="महा रुद्राभिषेक अनुष्ठान" class="w-full h-full object-cover group-hover:scale-110 transition duration-500"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-sm font-bold"><span class="lang-hi">महा रुद्राभिषेक</span><span class="lang-en hidden">Maha Rudrabhishek</span></span></div></div></div>
-            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate"><div class="h-36 md:h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-1.jpg" alt="महा रुद्राभिषेक अनुष्ठान, मातंगेश्वर धाम आश्रम" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold"><span class="lang-hi">महा रुद्राभिषेक</span><span class="lang-en hidden">Maha Rudrabhishek</span></span></div></div></div>
+            <!-- Gallery Item 1 -->
+            <div class="md:col-span-2 md:row-span-2 light-card rounded-2xl overflow-hidden shadow-md group scroll-animate"><div class="h-full bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-1.jpg" alt="महा रुद्राभिषेक अनुष्ठान, मातंगेश्वर धाम आश्रम" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-sm font-bold">महा रुद्राभिषेक</span></div></div></div>
             
-            <!-- Gallery Item 2 (Video) - Spans 2 columns on medium screens -->
+            <!-- Gallery Item 2 -->
+            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="100"><div class="h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-2.jpg" alt="वैदिक यज्ञ एवं हवन, मातंगेश्वर धाम आश्रम" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold">वैदिक महायज्ञ</span></div></div></div>
+
+            <!-- Gallery Item 3 (Image) -->
+            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="200"><div class="h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-3.jpg" alt="मां पीताम्बरा साधना, मातंगेश्वर धाम आश्रम" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold">मां पीताम्बरा साधना</span></div></div></div>
+
+            <!-- Gallery Item 4 (Image) -->
+            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="300"><div class="h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-4.jpg" alt="मातंगेश्वर धाम आश्रम परिसर, कनपारा, पीलीभीत" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold">आश्रम परिसर</span></div></div></div>
+
+            <!-- Gallery Item 5 (Image) -->
+            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="400"><div class="h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-5.jpg" alt="आश्रम में पूजा-पाठ" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold">पूजा-पाठ</span></div></div></div>
+
+            <!-- Gallery Item 6 (Image) -->
+            <div class="md:col-span-2 light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="500"><div class="h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-6.jpg" alt="महाराज जी का प्रवचन" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold">प्रवचन</span></div></div></div>
+
+            <!-- Gallery Item 7 (Image) -->
+            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="600"><div class="h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-7.jpg" alt="भक्तों के साथ महाराज जी" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold">भक्तों के साथ</span></div></div></div>
+
+            <!-- Gallery Item 8 (Image) -->
+            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="700"><div class="h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-8.jpg" alt="आश्रम का सुंदर दृश्य" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold">दिव्य आश्रम</span></div></div></div>
+
+            <!-- YouTube Video Embed 1 -->
             <div class="md:col-span-2 light-card rounded-2xl overflow-hidden shadow-md aspect-w-16 aspect-h-9 scroll-animate" data-delay="100">
                 <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w-full h-full"></iframe>
             </div>
-            <!-- Gallery Item 2 (Image) -->
-            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="100"><div class="h-36 md:h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-2.jpg" alt="वैदिक यज्ञ एवं हवन, मातंगेश्वर धाम आश्रम" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold"><span class="lang-hi">वैदिक महायज्ञ</span><span class="lang-en hidden">Vedic Mahayajna</span></span></div></div></div>
 
-            <!-- Gallery Item 3 (Image) -->
-            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="200"><div class="h-48 md:h-64 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/image2.jpg" alt="वैदिक यज्ञ एवं हवन" class="w-full h-full object-cover group-hover:scale-110 transition duration-500"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-sm font-bold"><span class="lang-hi">वैदिक महायज्ञ</span><span class="lang-en hidden">Vedic Mahayajna</span></span></div></div></div>
-            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="200"><div class="h-36 md:h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-3.jpg" alt="मां पीताम्बरा साधना, मातंगेश्वर धाम आश्रम" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold"><span class="lang-hi">मां पीताम्बरा साधना</span><span class="lang-en hidden">Maa Pitambara Sadhana</span></span></div></div></div>
-
-            <!-- Gallery Item 4 (Image) -->
-            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="300"><div class="h-48 md:h-64 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/image3.jpg" alt="आश्रम परिसर" class="w-full h-full object-cover group-hover:scale-110 transition duration-500"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-sm font-bold"><span class="lang-hi">आश्रम परिसर</span><span class="lang-en hidden">Ashram Premises</span></span></div></div></div>
-            
-            <!-- YouTube Video Embed 1 -->
-            <div class="md:col-span-2 light-card rounded-2xl overflow-hidden shadow-md aspect-w-16 aspect-h-9 scroll-animate" data-delay="400">
-                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w-full h-full"></iframe>
+            <!-- YouTube Video Embed 2 -->
+            <div class="md:col-span-2 light-card rounded-2xl overflow-hidden shadow-md aspect-w-16 aspect-h-9 scroll-animate" data-delay="200">
+                <iframe src="https://www.youtube.com/embed/o-YBDTqX_ZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w-full h-full"></iframe>
             </div>
-            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="300"><div class="h-36 md:h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-4.jpg" alt="मातंगेश्वर धाम आश्रम परिसर, कनपारा, पीलीभीत" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold"><span class="lang-hi">आश्रम परिसर</span><span class="lang-en hidden">Ashram Premises</span></span></div></div></div>
-
-            <!-- Gallery Item 5 (Image) -->
-            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="400"><div class="h-36 md:h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-5.jpg" alt="आश्रम में पूजा-पाठ" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold"><span class="lang-hi">पूजा-पाठ</span><span class="lang-en hidden">Pooja-Paath</span></span></div></div></div>
-
-            <!-- Gallery Item 6 (Image) -->
-            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="500"><div class="h-36 md:h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-6.jpg" alt="महाराज जी का प्रवचन" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold"><span class="lang-hi">प्रवचन</span><span class="lang-en hidden">Pravachan</span></span></div></div></div>
-
-            <!-- Gallery Item 7 (Image) -->
-            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="600"><div class="h-36 md:h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-7.jpg" alt="भक्तों के साथ महाराज जी" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold"><span class="lang-hi">भक्तों के साथ</span><span class="lang-en hidden">With Devotees</span></span></div></div></div>
-
-            <!-- Gallery Item 8 (Image) -->
-            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="700"><div class="h-36 md:h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-8.jpg" alt="आश्रम का सुंदर दृश्य" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold"><span class="lang-hi">दिव्य आश्रम</span><span class="lang-en hidden">Divine Ashram</span></span></div></div></div>
         </div>
     </section>
 
     <!-- Our Satisfied Patrons Section -->
     <section id="testimonials" class="py-16 px-4 max-w-6xl mx-auto border-b border-amber-300">
         <div class="text-center mb-10 scroll-animate">
-            <span class="text-amber-900 font-outfit font-bold text-xs uppercase tracking-widest block mb-1">
-                <span class="lang-hi">आस्था और विश्वास</span>
-                <span class="lang-en hidden">Faith and Trust</span>
-            </span>
-            <h2 class="text-3xl md:text-4xl font-dev-title font-bold text-red-950">
-                <span class="lang-hi">हमारे कुछ संतुष्ट यजमान</span>
-                <span class="lang-en hidden font-cinzel">Our Satisfied Patrons</span>
-            </h2>
-            <div class="w-24 h-1 bg-amber-500 mx-auto rounded-full mt-2"></div>
-            <p class="text-stone-800 text-xs md:text-sm font-outfit font-medium mt-2">महाराज जी के वैदिक मार्गदर्शन तथा पूजा, कुंडली एवं वास्तु जैसे उपायों से लाभान्वित कुछ प्रतिष्ठित यजमान।</p>
+            <span class="text-amber-900 font-outfit font-bold text-xs uppercase tracking-widest block mb-1">आस्था और विश्वास</span>
+            <h2 class="text-3xl md:text-4xl font-dev-title font-bold text-red-950">हमारे कुछ संतुष्ट यजमान</h2>
         </div>
 
         <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 font-outfit">
@@ -575,17 +423,14 @@
     <!-- Consultation Process Section -->
     <section id="process" class="py-16 px-4 max-w-5xl mx-auto">
         <div class="text-center mb-12 scroll-animate">
-            <h2 class="text-2xl md:text-3xl font-dev-title font-bold text-red-950 mb-2">
-                <span class="lang-hi">आश्रम परामर्श एवं बुकिंग प्रक्रिया</span>
-                <span class="lang-en hidden font-cinzel">Ashram Paramarsh & Booking Prakriya</span>
-            </h2>
+            <h2 class="text-2xl md:text-3xl font-dev-title font-bold text-red-950 mb-2">आश्रम परामर्श एवं बुकिंग प्रक्रिया</h2>
             <p class="text-amber-900 text-xs font-outfit font-bold tracking-wider uppercase">3-Step Easy Process</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div class="light-card p-6 rounded-2xl scroll-animate"><div class="w-12 h-12 bg-red-950 text-amber-100 font-outfit font-extrabold text-xl rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-amber-300 shadow-md">1</div><h3 class="text-lg font-dev-title font-bold text-red-950 mb-2"><span class="lang-hi">1. संपर्क एवं अपॉइंटमेंट</span><span class="lang-en hidden font-outfit">1. Sampark & Appointment</span></h3><p class="text-stone-800 text-sm md:text-base leading-relaxed font-medium"><span class="lang-hi">मोबाइल नंबर <strong class="text-red-950">9389265478</strong> पर कॉल करें या व्हाट्सएप पर अपनी जन्म तिथि व समय भेजें।</span><span class="lang-en hidden font-outfit">Mobile number <strong class="text-red-950">9389265478</strong> par call karein ya WhatsApp par apni janma tithi wa samay bhejein.</span></p></div>
-            <div class="light-card p-6 rounded-2xl scroll-animate" data-delay="200"><div class="w-12 h-12 bg-red-950 text-amber-100 font-outfit font-extrabold text-xl rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-amber-300 shadow-md">2</div><h3 class="text-lg font-dev-title font-bold text-red-950 mb-2"><span class="lang-hi">2. प्रत्यक्ष या फोन परामर्श</span><span class="lang-en hidden font-outfit">2. Pratyaksh ya Phone Paramarsh</span></h3><p class="text-stone-800 text-sm md:text-base leading-relaxed font-medium"><span class="lang-hi">मातंगेश्वर धाम आश्रम पधारें या दूर रहने पर फोन पर महाराज जी से प्रत्यक्ष परामर्श प्राप्त करें।</span><span class="lang-en hidden font-outfit">Matangeshwar Dham Ashram padharein ya door rehne par phone par Maharaj ji se pratyaksh paramarsh prapt karein.</span></p></div>
-            <div class="light-card p-6 rounded-2xl scroll-animate" data-delay="400"><div class="w-12 h-12 bg-red-950 text-amber-100 font-outfit font-extrabold text-xl rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-amber-300 shadow-md">3</div><h3 class="text-lg font-dev-title font-bold text-red-950 mb-2"><span class="lang-hi">3. वैदिक उपाय एवं अनुष्ठान</span><span class="lang-en hidden font-outfit">3. Vedic Upay & Anushthan</span></h3><p class="text-stone-800 text-sm md:text-base leading-relaxed font-medium"><span class="lang-hi">कुंडली विश्लेषण पश्चात बताए गए वैदिक उपाय व महा अनुष्ठान द्वारा संकटों से मुक्ति पाएं।</span><span class="lang-en hidden font-outfit">Kundali vishleshan pashchat bataye gaye Vedic upay wa maha anushthan dwara sankaton se mukti paayein.</span></p></div>
+            <div class="light-card p-6 rounded-2xl scroll-animate"><div class="w-12 h-12 bg-red-950 text-amber-100 font-outfit font-extrabold text-xl rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-amber-300 shadow-md">1</div><h3 class="text-lg font-dev-title font-bold text-red-950 mb-2">1. संपर्क एवं अपॉइंटमेंट</h3><p class="text-stone-800 text-sm md:text-base leading-relaxed font-medium">मोबाइल नंबर <strong class="text-red-950">9389265478</strong> पर कॉल करें या व्हाट्सएप पर अपनी जन्म तिथि व समय भेजें।</p></div>
+            <div class="light-card p-6 rounded-2xl scroll-animate" data-delay="200"><div class="w-12 h-12 bg-red-950 text-amber-100 font-outfit font-extrabold text-xl rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-amber-300 shadow-md">2</div><h3 class="text-lg font-dev-title font-bold text-red-950 mb-2">2. प्रत्यक्ष या फोन परामर्श</h3><p class="text-stone-800 text-sm md:text-base leading-relaxed font-medium">मातंगेश्वर धाम आश्रम पधारें या दूर रहने पर फोन पर महाराज जी से प्रत्यक्ष परामर्श प्राप्त करें।</p></div>
+            <div class="light-card p-6 rounded-2xl scroll-animate" data-delay="400"><div class="w-12 h-12 bg-red-950 text-amber-100 font-outfit font-extrabold text-xl rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-amber-300 shadow-md">3</div><h3 class="text-lg font-dev-title font-bold text-red-950 mb-2">3. वैदिक उपाय एवं अनुष्ठान</h3><p class="text-stone-800 text-sm md:text-base leading-relaxed font-medium">कुंडली विश्लेषण पश्चात बताए गए वैदिक उपाय व महा अनुष्ठान द्वारा संकटों से मुक्ति पाएं।</p></div>
         </div>
     </section>
 
@@ -593,14 +438,8 @@
     <section id="location" class="py-12 px-4 max-w-5xl mx-auto border-b border-amber-300">
         <div class="light-card p-6 md:p-8 rounded-3xl border-2 border-amber-300 bg-gradient-to-r from-amber-50 via-white to-amber-50 shadow-lg text-center scroll-animate">
             <div class="max-w-2xl mx-auto space-y-3">
-                <span class="text-xs font-outfit font-bold text-amber-900 tracking-widest uppercase bg-amber-100 px-3 py-1 rounded-full border border-amber-300 inline-block">
-                    <span class="lang-hi">आश्रम स्थान</span>
-                    <span class="lang-en hidden">Ashram Location</span>
-                </span>
-                <h3 class="text-2xl font-dev-title font-bold text-red-950">
-                    <span class="lang-hi">मातंगेश्वर धाम आश्रम मानचित्र एवं पता</span>
-                    <span class="lang-en hidden font-cinzel">Matangeshwar Dham Ashram Map & Location</span>
-                </h3>
+                <span class="text-xs font-outfit font-bold text-amber-900 tracking-widest uppercase bg-amber-100 px-3 py-1 rounded-full border border-amber-300 inline-block">आश्रम स्थान</span>
+                <h3 class="text-2xl font-dev-title font-bold text-red-950">मातंगेश्वर धाम आश्रम मानचित्र एवं पता</h3>
                 <p class="text-stone-800 text-sm font-outfit font-medium leading-relaxed">
                     <i class="fa-solid fa-location-dot text-red-700 mr-1 text-base"></i>
                     <strong>मातंगेश्वर धाम आश्रम, पूरनपुर बण्डा मार्ग, कनपारा, तहसील पूरनपुर, जिला पीलीभीत (उत्तर प्रदेश)</strong>
@@ -608,8 +447,7 @@
                 <div class="pt-3 font-outfit">
                     <a href="https://maps.google.com/?q=Matangeshwar+Dham+Ashram+Kanpara+Puranpur" target="_blank" class="inline-flex items-center gap-2 px-7 py-3 bg-red-950 text-amber-100 font-bold rounded-full shadow-md hover:bg-red-900 transition text-sm">
                         <i class="fa-solid fa-map-location-dot text-amber-400 text-base"></i>
-                        <span class="lang-hi">Google Maps पर लोकेशन देखें</span>
-                        <span class="lang-en hidden">View Location on Google Maps</span>
+                        Google Maps पर देखें
                     </a>
                 </div>
             </div>
@@ -619,57 +457,36 @@
     <!-- FAQ Section with Schema Markup -->
     <section id="faq" class="py-16 px-4 max-w-4xl mx-auto scroll-animate">
         <div itemscope itemtype="https://schema.org/FAQPage">
-            <h2 class="text-2xl md:text-3xl font-dev-title font-bold text-center maroon-gradient-text mb-8">
-                <span class="lang-hi">अक्सर पूछे जाने वाले प्रश्न (FAQ)</span>
-                <span class="lang-en hidden font-cinzel">Frequently Asked Questions (FAQ)</span>
-            </h2>
+            <h2 class="text-2xl md:text-3xl font-dev-title font-bold text-center maroon-gradient-text mb-8">अक्सर पूछे जाने वाले प्रश्न (FAQ)</h2>
             
             <div class="space-y-4">
                 <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="light-card p-5 rounded-2xl border border-amber-300 cursor-pointer group">
                     <summary class="text-base md:text-lg font-dev-title font-bold text-red-950 flex justify-between items-center list-none">
-                        <span itemprop="name">
-                            <span class="lang-hi">Q. मातंगेश्वर धाम आश्रम का सही पता क्या है?</span>
-                            <span class="lang-en hidden font-outfit">Q. What is the correct address of Matangeshwar Dham Ashram?</span>
-                        </span>
+                        <span itemprop="name">Q. मातंगेश्वर धाम आश्रम का सही पता क्या है?</span>
                         <i class="fa-solid fa-chevron-down text-amber-800 transition-transform duration-300 group-open:rotate-180"></i>
                     </summary>
                     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" class="overflow-hidden max-h-0 transition-all duration-500 ease-in-out group-open:max-h-screen">
-                        <div itemprop="text" class="text-stone-800 text-sm md:text-base mt-3 leading-relaxed font-medium border-t border-amber-200 pt-3">
-                            <span class="lang-hi">उत्तर: आश्रम ग्राम <strong>कनपारा, तहसील पूरनपुर, जिला पीलीभीत (उत्तर प्रदेश)</strong> पूरनपुर-बण्डा मार्ग पर स्थित है।</span>
-                            <span class="lang-en hidden font-outfit">Answer: The ashram is located at Village <strong>Kanpara, Tehsil Puranpur, District Pilibhit (Uttar Pradesh)</strong> on the Puranpur-Banda road.</span>
-                        </div>
+                        <div itemprop="text" class="text-stone-800 text-sm md:text-base mt-3 leading-relaxed font-medium border-t border-amber-200 pt-3">उत्तर: आश्रम ग्राम <strong>कनपारा, तहसील पूरनपुर, जिला पीलीभीत (उत्तर प्रदेश)</strong> पूरनपुर-बण्डा मार्ग पर स्थित है।</div>
                     </div>
                 </details>
 
                 <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="light-card p-5 rounded-2xl border border-amber-300 cursor-pointer group">
                     <summary class="text-base md:text-lg font-dev-title font-bold text-red-950 flex justify-between items-center list-none">
-                        <span itemprop="name">
-                            <span class="lang-hi">Q. क्या दूर रहने वाले लोग फोन पर परामर्श ले सकते हैं?</span>
-                            <span class="lang-en hidden font-outfit">Q. Can people living far away get a consultation over the phone?</span>
-                        </span>
+                        <span itemprop="name">Q. क्या दूर रहने वाले लोग फोन पर परामर्श ले सकते हैं?</span>
                         <i class="fa-solid fa-chevron-down text-amber-800 transition-transform duration-300 group-open:rotate-180"></i>
                     </summary>
                     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" class="overflow-hidden max-h-0 transition-all duration-500 ease-in-out group-open:max-h-screen">
-                        <div itemprop="text" class="text-stone-800 text-sm md:text-base mt-3 leading-relaxed font-medium border-t border-amber-200 pt-3">
-                            <span class="lang-hi">उत्तर: जी हाँ! आप <strong>9389265478</strong> पर कॉल या व्हाट्सएप करके दूर बैठे भी पूरा ज्योतिषीय परामर्श ले सकते हैं।</span>
-                            <span class="lang-en hidden font-outfit">Answer: Yes! You can get a complete astrological consultation from anywhere by calling or sending a WhatsApp message to <strong>9389265478</strong>.</span>
-                        </div>
+                        <div itemprop="text" class="text-stone-800 text-sm md:text-base mt-3 leading-relaxed font-medium border-t border-amber-200 pt-3">उत्तर: जी हाँ! आप <strong>9389265478</strong> पर कॉल या व्हाट्सएप करके दूर बैठे भी पूरा ज्योतिषीय परामर्श ले सकते हैं।</div>
                     </div>
                 </details>
 
                 <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="light-card p-5 rounded-2xl border border-amber-300 cursor-pointer group">
                     <summary class="text-base md:text-lg font-dev-title font-bold text-red-950 flex justify-between items-center list-none">
-                        <span itemprop="name">
-                            <span class="lang-hi">Q. परामर्श हेतु किन जानकारियों की आवश्यकता होती है?</span>
-                            <span class="lang-en hidden font-outfit">Q. What information is required for a consultation?</span>
-                        </span>
+                        <span itemprop="name">Q. परामर्श हेतु किन जानकारियों की आवश्यकता होती है?</span>
                         <i class="fa-solid fa-chevron-down text-amber-800 transition-transform duration-300 group-open:rotate-180"></i>
                     </summary>
                     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" class="overflow-hidden max-h-0 transition-all duration-500 ease-in-out group-open:max-h-screen">
-                        <div itemprop="text" class="text-stone-800 text-sm md:text-base mt-3 leading-relaxed font-medium border-t border-amber-200 pt-3">
-                            <span class="lang-hi">उत्तर: आपकी जन्म तिथि, जन्म समय एवं जन्म स्थान। यदि जन्म विवरण न हो तो हस्तरेखा एवं प्रश्न कुंडली द्वारा भी मार्गदर्शन किया जाता है।</span>
-                            <span class="lang-en hidden font-outfit">Answer: Your date of birth, time of birth, and place of birth. If birth details are not available, guidance can also be provided through palmistry and horary astrology (Prashna Kundali).</span>
-                        </div>
+                        <div itemprop="text" class="text-stone-800 text-sm md:text-base mt-3 leading-relaxed font-medium border-t border-amber-200 pt-3">उत्तर: आपकी जन्म तिथि, जन्म समय एवं जन्म स्थान। यदि जन्म विवरण न हो तो हस्तरेखा एवं प्रश्न कुंडली द्वारा भी मार्गदर्शन किया जाता है।</div>
                     </div>
                 </details>
             </div>
@@ -685,14 +502,8 @@
                 <div class="text-3xl text-amber-400 font-bold mb-1">
                     <i class="fa-solid fa-om"></i>
                 </div>
-                <h3 class="font-dev-title text-2xl text-yellow-300">
-                    <span class="lang-hi">पं. विपिन महाराज</span>
-                    <span class="lang-en hidden font-cinzel">Pt. Vipin Maharaj</span>
-                </h3>
-                <p class="text-amber-200/80 text-sm leading-relaxed max-w-sm">
-                    <span class="lang-hi">श्री सद्गुरु देव भगवान के पावन आशीर्वाद एवं वैदिक ज्योतिष परंपरा द्वारा जन-कल्याण हेतु समर्पित।</span>
-                    <span class="lang-en hidden">Shree Sadguru Dev Bhagwan ke aashirwaad evam Vedic jyotish dwara jan-kalyan hetu samarpit.</span>
-                </p>
+                <h3 class="font-dev-title text-2xl text-yellow-300">पं. विपिन महाराज</h3>
+                <p class="text-amber-200/80 text-sm leading-relaxed max-w-sm">श्री सद्गुरु देव भगवान के पावन आशीर्वाद एवं वैदिक ज्योतिष परंपरा द्वारा जन-कल्याण हेतु समर्पित।</p>
                 <!-- Social Icons -->
                 <div class="flex items-center space-x-4 pt-2">
                     <a href="#" target="_blank" class="text-amber-300 hover:text-yellow-300 transition text-2xl">
@@ -703,55 +514,44 @@
 
             <!-- Col 2: Quick Links -->
             <div class="space-y-2">
-                <h4 class="text-lg font-bold text-yellow-400 font-dev-title">
-                    <span class="lang-hi">त्वरित संपर्क व सेवाएं</span>
-                    <span class="lang-en hidden font-cinzel">Twarit Sampark & Services</span>
-                </h4>
+                <h4 class="text-lg font-bold text-yellow-400 font-dev-title">त्वरित संपर्क व सेवाएँ</h4>
                 <ul class="text-sm space-y-1.5 text-amber-200/90">
-                    <li><a href="#services" class="hover:text-yellow-300 transition"><span class="lang-hi">तंत्र काट एवं लव मैरिज</span><span class="lang-en hidden">Tantra Kaat & Love Marriage</span></a></li>
-                    <li><a href="#services" class="hover:text-yellow-300 transition"><span class="lang-hi">नौकरी एवं व्यापार</span><span class="lang-en hidden">Job & Business</span></a></li>
-                    <li><a href="#anushthan" class="hover:text-yellow-300 transition"><span class="lang-hi">महा रुद्राभिषेक</span><span class="lang-en hidden">Maha Rudrabhishek</span></a></li>
-                    <li><a href="#anushthan" class="hover:text-yellow-300 transition"><span class="lang-hi">मां पीताम्बरा साधना</span><span class="lang-en hidden">Maa Pitambara Sadhana</span></a></li>
+                    <li><a href="#services" class="hover:text-yellow-300 transition">तंत्र काट एवं लव मैरिज</a></li>
+                    <li><a href="#services" class="hover:text-yellow-300 transition">नौकरी एवं व्यापार</a></li>
+                    <li><a href="#anushthan" class="hover:text-yellow-300 transition">महा रुद्राभिषेक</a></li>
+                    <li><a href="#anushthan" class="hover:text-yellow-300 transition">मां पीताम्बरा साधना</a></li>
                 </ul>
             </div>
 
             <!-- Col 3: Contact & Address -->
             <div class="space-y-3">
-                <h4 class="text-lg font-bold text-yellow-400 font-dev-title">
-                    <span class="lang-hi">आश्रम संपर्क स्थान</span>
-                    <span class="lang-en hidden font-cinzel">Ashram Sthan</span>
-                </h4>
+                <h4 class="text-lg font-bold text-yellow-400 font-dev-title">आश्रम संपर्क व स्थान</h4>
                 <p class="text-sm text-amber-200/90 leading-relaxed">
-                    <strong><span class="lang-hi">पीठाधीश्वर:</span><span class="lang-en hidden">Peethadheeshwar:</span></strong> 
-                    <span class="lang-hi">ज्योतिषाचार्य पं. विपिन महाराज</span><span class="lang-en hidden">Jyotishacharya Pt. Vipin Maharaj</span><br>
-                    <strong><span class="lang-hi">स्थान:</span><span class="lang-en hidden">Location:</span></strong> 
-                    <span class="lang-hi">मातंगेश्वर धाम आश्रम, पूरनपुर बण्डा मार्ग, कनपारा, पूरनपुर, पीलीभीत</span><span class="lang-en hidden">Matangeshwar Dham Ashram, Puranpur Banda Marg, Kanpara, Puranpur, Pilibhit</span><br>
-                    <strong><span class="lang-hi">संपर्क:</span><span class="lang-en hidden">Contact:</span></strong> 
+                    <strong>पीठाधीश्वर:</strong> 
+                    ज्योतिषाचार्य पं. विपिन महाराज<br>
+                    <strong>स्थान:</strong> 
+                    मातंगेश्वर धाम आश्रम, पूरनपुर बण्डा मार्ग, कनपारा, पूरनपुर, पीलीभीत<br>
+                    <strong>संपर्क:</strong> 
                     <a href="tel:9389265478" class="text-yellow-300 font-bold hover:underline">+91 9389265478</a><br>
-                    <strong><span class="lang-hi">ईमेल:</span><span class="lang-en hidden">Email:</span></strong> 
+                    <strong>ईमेल:</strong> 
                     <a href="mailto:Shastri.vipin427@gmail.com" class="text-yellow-300 font-bold hover:underline">Shastri.vipin427@gmail.com</a>
                 </p>
             </div>
 
         </div>
 
-        <div class="text-xs text-amber-300/60 font-outfit text-center border-t border-red-900/80 pt-6">
-            <span class="lang-hi">© मातंगेश्वर धाम आश्रम | सर्व अधिकार सुरक्षित।</span>
-            <span class="lang-en hidden">© Matangeshwar Dham Ashram | Sarva Adhikar Surakshit.</span>
-        </div>
+        <div class="text-xs text-amber-300/60 font-outfit text-center border-t border-red-900/80 pt-6">© मातंगेश्वर धाम आश्रम | सर्व अधिकार सुरक्षित।</div>
     </footer>
 
     <!-- Fixed Mobile Contact Buttons -->
-    <div class="md:hidden fixed bottom-0 left-0 right-0 bg-[#fffdf2]/95 border-t border-amber-300 p-2.5 flex justify-around items-center z-50 backdrop-blur-xl font-outfit shadow-lg">
+    <div class="lg:hidden fixed bottom-0 left-0 right-0 bg-[#fffdf2]/90 border-t border-amber-300 p-2.5 flex justify-around items-center z-50 backdrop-blur-sm font-outfit shadow-lg">
         <a href="tel:9389265478" class="flex-1 text-center py-2.5 bg-red-950 text-amber-100 font-bold text-xs rounded-xl mx-1 shadow-md">
             <i class="fa-solid fa-phone mr-1"></i>
-            <span class="lang-hi">कॉल</span>
-            <span class="lang-en hidden">Call</span>
+            कॉल
         </a>
         <a href="https://wa.me/919389265478?text=जय%20श्री%20राम,%20मुझे%20परामर्श%20चाहिए।" target="_blank" class="flex-1 text-center py-2.5 bg-emerald-700 text-white font-bold text-xs rounded-xl mx-1 shadow-md">
             <i class="fa-brands fa-whatsapp mr-1 text-sm"></i>
-            <span class="lang-hi">व्हाट्सएप</span>
-            <span class="lang-en hidden">WhatsApp</span>
+            व्हाट्सएप
         </a>
     </div>
 
