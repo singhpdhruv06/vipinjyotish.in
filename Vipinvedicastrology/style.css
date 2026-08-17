@@ -62,6 +62,31 @@ body {
     transform: translateY(-2px) scale(1.02);
 }
 
+/* New Buttons for Dark Backgrounds */
+.vedic-btn-gold {
+    background: linear-gradient(135deg, #fcd34d 0%, #f59e0b 100%);
+    color: #422006;
+    transition: all 0.3s ease;
+}
+.vedic-btn-gold:hover {
+    background: linear-gradient(135deg, #fbbf24 0%, #d97706 100%);
+    box-shadow: 0 8px 22px rgba(245, 158, 11, 0.4);
+    transform: translateY(-2px);
+}
+
+.vedic-btn-outline {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #fcd34d;
+    transition: all 0.3s ease;
+}
+.vedic-btn-outline:hover {
+    background-color: #fcd34d;
+    color: #422006;
+    box-shadow: 0 8px 22px rgba(252, 211, 77, 0.3);
+    transform: translateY(-2px);
+}
+
 /* For responsive video embeds */
 .aspect-w-16 { position: relative; padding-bottom: 56.25%; }
 .aspect-h-9 { height: 0; }

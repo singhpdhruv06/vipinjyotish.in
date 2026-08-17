@@ -15,11 +15,13 @@ document.addEventListener('DOMContentLoaded', function () {
   const mobileMenu = document.getElementById('mobile-menu');
   const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
 
-  if (menuBtn && mobileMenu) {
-    menuBtn.addEventListener('click', () => {
+  function toggleMenu() {
+    if (mobileMenu) {
       mobileMenu.classList.toggle('hidden');
-    });
+    }
   }
+
+  menuBtn.addEventListener('click', toggleMenu);
 
   // Close menu when a link is clicked
   mobileNavLinks.forEach(link => {
@@ -59,5 +61,7 @@ function toggleLanguage() {
 
   // Update the button text
   const langBtnText = document.getElementById('lang-btn-text');
-  langBtnText.textContent = isHindi ? 'English' : 'हिंदी';
+  if(langBtnText) {
+    langBtnText.textContent = isHindi ? 'English' : 'हिंदी';
+  }
 }
