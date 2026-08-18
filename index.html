@@ -29,9 +29,9 @@
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
       "name": "ज्योतिषाचार्य पं. विपिन महाराज",
-      "image": "https://vipin-maharaj.github.io/images/main.jpg",
-      "@id": "https://vipin-maharaj.github.io/",
-      "url": "https://vipin-maharaj.github.io/",
+      "image": "https://vipinjyotish.in/images/main.jpg",
+      "@id": "https://vipinjyotish.in/",
+      "url": "https://vipinjyotish.in/",
       "telephone": "+91-9389265478",
       "email": "Shastri.vipin427@gmail.com",
       "priceRange": "$$",
@@ -100,11 +100,13 @@
                     <a href="#faq" class="hover:text-amber-700 transition">FAQ</a>
                 </nav>
 
-                <a href="tel:9389265478" class="hidden sm:inline-flex items-center gap-2 px-5 py-2 text-xs md:text-sm font-outfit font-extrabold vedic-btn-saffron rounded-full shadow-md hover:scale-105 transition">
-                <a href="tel:9389265478" class="hidden sm:inline-flex items-center gap-2 px-5 py-2 text-xs md:text-sm font-outfit font-extrabold vedic-btn-call rounded-full shadow-md hover:scale-105 transition">
+                <!-- Desktop Call Now Button -->
+                <a href="tel:9389265478" class="hidden lg:inline-flex items-center gap-2 px-5 py-2 text-xs md:text-sm font-outfit font-extrabold vedic-btn-call rounded-full shadow-md hover:scale-105 transition">
                     <i class="fa-solid fa-phone"></i> Call Now
                 </a>
 
+                <!-- Mobile Menu Toggle Button -->
+                <button id="mobile-menu-toggle" class="lg:hidden p-2 rounded-md text-red-950 hover:bg-amber-100 transition"><i class="fa-solid fa-bars text-xl"></i></button>
             </div>
         </div>
     </header>
@@ -156,6 +158,44 @@
                         </div>
                     </div>
                     </div>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu" class="fixed inset-0 bg-[#fffdf2] z-50 transform translate-x-full transition-transform duration-300 ease-in-out lg:hidden">
+        <div class="flex justify-between items-center p-4 border-b border-amber-300">
+            <!-- Logo for Mobile Menu -->
+            <a href="#" class="flex items-center space-x-2.5">
+                <div class="w-10 h-10 rounded-full bg-gradient-to-br from-amber-100 to-amber-200 border-2 border-amber-400 flex items-center justify-center text-amber-800 text-2xl font-bold shadow-sm">
+                    <i class="fa-solid fa-om"></i>
+                </div>
+                <div>
+                    <span class="font-dev-title text-xl md:text-2xl font-bold maroon-gradient-text block leading-none">
+                        पं. विपिन महाराज
+                    </span>
+                    <span class="text-[10px] md:text-[11px] font-outfit text-amber-900 font-extrabold tracking-wider uppercase block mt-1">
+                        मातंगेश्वर धाम आश्रम
+                    </span>
+                </div>
+            </a>
+            <button id="mobile-menu-close" class="p-2 rounded-md text-red-950 hover:bg-amber-100 transition">
+                <i class="fa-solid fa-times text-xl"></i>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 space-y-4 text-lg font-outfit font-bold text-stone-800 tracking-wide">
+            <a href="#about" class="block py-2 hover:text-amber-700 transition border-b border-amber-100">परिचय</a>
+            <a href="#rashi" class="block py-2 hover:text-amber-700 transition border-b border-amber-100">राशि चक्र</a>
+            <a href="#services" class="block py-2 hover:text-amber-700 transition border-b border-amber-100">परामर्श</a>
+            <a href="#anushthan" class="block py-2 hover:text-amber-700 transition border-b border-amber-100">अनुष्ठान</a>
+            <a href="#gallery" class="block py-2 hover:text-amber-700 transition border-b border-amber-100">गैलरी</a>
+            <a href="#testimonials" class="block py-2 hover:text-amber-700 transition border-b border-amber-100">यजमान</a>
+            <a href="#faq" class="block py-2 hover:text-amber-700 transition border-b border-amber-100">FAQ</a>
+            <!-- Mobile Call Now Button -->
+            <a href="tel:9389265478" class="mt-4 inline-flex items-center justify-center gap-2 px-5 py-2 text-sm font-outfit font-extrabold vedic-btn-call rounded-full shadow-md hover:scale-105 transition">
+                <i class="fa-solid fa-phone"></i> Call Now
+            </a>
+        </nav>
+    </div>
+
+
 
                     <!-- Trust Badges & CTAs (Now below the image card) -->
                     <div class="w-full max-w-md mx-auto mt-6 space-y-5">
@@ -347,7 +387,6 @@
         </div>
 
         <div class="mt-10 text-center font-outfit scroll-animate">
-            <a href="https://wa.me/919389265478?text=जय%20श्री%20राम,%20मुझे%20अनुष्ठान%20का%20आयोजन%20करवाना%20है।" target="_blank" class="inline-flex items-center gap-2 px-8 py-4 vedic-btn-saffron font-extrabold rounded-full shadow-lg hover:scale-105 transition text-base">
             <a href="https://wa.me/919389265478?text=जय%20श्री%20राम,%20मुझे%20अनुष्ठान%20का%20आयोजन%20करवाना%20है।" target="_blank" class="inline-flex items-center gap-2 px-8 py-4 vedic-btn-call font-extrabold rounded-full shadow-lg hover:scale-105 transition text-base">
                 <i class="fa-solid fa-calendar-check text-lg"></i>
                 अनुष्ठान तिथि बुक करें
@@ -367,28 +406,28 @@
 
         <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 font-outfit">
             <!-- Gallery Item 1 -->
-            <div class="md:col-span-2 md:row-span-2 light-card rounded-2xl overflow-hidden shadow-md group scroll-animate"><div class="h-full bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-1.jpg" alt="महा रुद्राभिषेक अनुष्ठान, मातंगेश्वर धाम आश्रम" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-sm font-bold">महा रुद्राभिषेक</span></div></div></div>
+            <div class="md:col-span-2 md:row-span-2 light-card rounded-2xl overflow-hidden shadow-md group scroll-animate"><div class="h-full bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-1.jpg" alt="महा रुद्राभिषेक अनुष्ठान, मातंगेश्वर धाम आश्रम" class="w-full h-full object-cover group-hover:scale-110 transition duration-500"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-sm font-bold">महा रुद्राभिषेक</span></div></div></div>
             
             <!-- Gallery Item 2 -->
-            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="100"><div class="h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-2.jpg" alt="वैदिक यज्ञ एवं हवन, मातंगेश्वर धाम आश्रम" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold">वैदिक महायज्ञ</span></div></div></div>
+            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="100"><div class="h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-2.jpg" alt="वैदिक यज्ञ एवं हवन, मातंगेश्वर धाम आश्रम" class="w-full h-full object-cover group-hover:scale-110 transition duration-500"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold">वैदिक महायज्ञ</span></div></div></div>
 
             <!-- Gallery Item 3 (Image) -->
-            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="200"><div class="h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-3.jpg" alt="मां पीताम्बरा साधना, मातंगेश्वर धाम आश्रम" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold">मां पीताम्बरा साधना</span></div></div></div>
+            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="200"><div class="h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-3.jpg" alt="मां पीताम्बरा साधना, मातंगेश्वर धाम आश्रम" class="w-full h-full object-cover group-hover:scale-110 transition duration-500"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold">मां पीताम्बरा साधना</span></div></div></div>
 
             <!-- Gallery Item 4 (Image) -->
-            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="300"><div class="h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-4.jpg" alt="मातंगेश्वर धाम आश्रम परिसर, कनपारा, पीलीभीत" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold">आश्रम परिसर</span></div></div></div>
+            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="300"><div class="h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-4.jpg" alt="मातंगेश्वर धाम आश्रम परिसर, कनपारा, पीलीभीत" class="w-full h-full object-cover group-hover:scale-110 transition duration-500"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold">आश्रम परिसर</span></div></div></div>
 
             <!-- Gallery Item 5 (Image) -->
-            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="400"><div class="h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-5.jpg" alt="आश्रम में पूजा-पाठ" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold">पूजा-पाठ</span></div></div></div>
+            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="400"><div class="h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-5.jpg" alt="आश्रम में पूजा-पाठ" class="w-full h-full object-cover group-hover:scale-110 transition duration-500"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold">पूजा-पाठ</span></div></div></div>
 
             <!-- Gallery Item 6 (Image) -->
-            <div class="md:col-span-2 light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="500"><div class="h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-6.jpg" alt="महाराज जी का प्रवचन" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold">प्रवचन</span></div></div></div>
+            <div class="md:col-span-2 light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="500"><div class="h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-6.jpg" alt="महाराज जी का प्रवचन" class="w-full h-full object-cover group-hover:scale-110 transition duration-500"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold">प्रवचन</span></div></div></div>
 
             <!-- Gallery Item 7 (Image) -->
-            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="600"><div class="h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-7.jpg" alt="भक्तों के साथ महाराज जी" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold">भक्तों के साथ</span></div></div></div>
+            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="600"><div class="h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-7.jpg" alt="भक्तों के साथ महाराज जी" class="w-full h-full object-cover group-hover:scale-110 transition duration-500"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold">भक्तों के साथ</span></div></div></div>
 
             <!-- Gallery Item 8 (Image) -->
-            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="700"><div class="h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-8.jpg" alt="आश्रम का सुंदर दृश्य" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.parentElement.innerHTML = '<div class=\'w-full h-full flex items-center justify-center text-4xl text-amber-400\'><i class=\'fa-solid fa-om\'></i></div>'"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold">दिव्य आश्रम</span></div></div></div>
+            <div class="light-card rounded-2xl overflow-hidden shadow-md group scroll-animate" data-delay="700"><div class="h-48 bg-amber-100 relative flex items-center justify-center overflow-hidden"><img src="images/gallery/gallery-8.jpg" alt="आश्रम का सुंदर दृश्य" class="w-full h-full object-cover group-hover:scale-110 transition duration-500"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3"><span class="text-white text-xs font-bold">दिव्य आश्रम</span></div></div></div>
 
             <!-- YouTube Video Embed 1 -->
             <div class="md:col-span-2 light-card rounded-2xl overflow-hidden shadow-md aspect-w-16 aspect-h-9 scroll-animate" data-delay="100">
@@ -555,7 +594,6 @@
     </div>
 
     <!-- Custom JavaScript -->
-    <script src="js/script.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
